@@ -20,8 +20,8 @@ class MasterTableSeeder extends Seeder
             0 => 
             array (
                 'codigo' => 'AA0959',
-                'name' => 'Name Example 1',
-                'lastname' => 'Last Name Example 1',
+                'name' => 'Javier',
+                'lastname' => 'Flores Pari',
                 'lvlstudy' => 'Educación Universitaria Completa',
                 'profession' => 'Ingeniero de Sistemas',
                 'occupation' => 'Analista programador',
@@ -134,8 +134,8 @@ class MasterTableSeeder extends Seeder
             2 => 
             array (
                 'codigo' => 'AA8421',
-                'name' => 'Name Example',
-                'lastname' => 'Last Name Example',
+                'name' => 'Julio Cesar',
+                'lastname' => 'Antoquia Marquez',
                 'lvlstudy' => 'Educación Universitaria Completa',
                 'profession' => 'Ingeniero de Sistemas',
                 'occupation' => 'Analista programador',
