@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Database\Eloquent\Model;
+use Faker\Factory as Faker;
 
 class DatabaseSeeder extends Seeder
 {
@@ -25,8 +27,8 @@ class DatabaseSeeder extends Seeder
             'username' => 'admin',
             'email' => 'admin@gmail.com',
             'password' => bcrypt('admin'),
-			      'lastname' => 'Admin',
-			      'firstname' => 'Admin'
+			'lastname' => 'Admin',
+			'firstname' => 'Admin'
         ]);
 
         $this->call('TdepartmentdataTableSeeder');
@@ -46,5 +48,10 @@ class DatabaseSeeder extends Seeder
         $this->call('TdiscpdataTableSeeder');
         $this->call('TdocidentdataTableSeeder');
         $this->call('MasterTableSeeder');
+        $this->call('TutorialTableSeeder');
+        $this->call('TpositiondataTableSeeder');
+        $this->call('TlabordataTableSeeder');
+        $this->call('WorkExpTableSeeder');
     }
 }
+    

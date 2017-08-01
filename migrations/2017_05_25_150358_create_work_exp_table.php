@@ -26,7 +26,7 @@ class CreateWorkExpTable extends Migration
             $table->date('since');
             $table->date('until');
             $table->string('institution',40);
-            $table->string('observation',40);
+            $table->string('observation',40)->nullable();
             $table->timestamps();
         });
 

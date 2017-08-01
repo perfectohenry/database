@@ -18,7 +18,7 @@ class CreateTpositiondataTable extends Migration
             $table->integer('employee_id')->unsigned(); // estamento
             $table->string('initials',5);
             $table->string('position',40);
-            $table->boolean('activo'); // activo / no activo
+            $table->boolean('activo')->default(1); // activo / no activo
             $table->string('observation',40);
             $table->timestamps();
         });

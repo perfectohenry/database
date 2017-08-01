@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateAddressTable extends Migration
+class CreateHijoTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,20 +13,19 @@ class CreateAddressTable extends Migration
      */
     public function up()
     {
-        Schema::create('address', function (Blueprint $table) { // direccion
+        Schema::create('hijo', function (Blueprint $table) { // direccion
             $table->increments('id');
             $table->string('master_code',6);
-            $table->string('place',20)->nullable();
-            $table->string('addres',40);
-            $table->string('phone',13)->nullable();
-            $table->string('cell_phone',13)->nullable();
-            $table->string('email')->nullable();
-            $table->string('postal_mail',15)->nullable();
-            $table->string('observation',40)->nullable();
+            $table->string('last_name',50);
+            $table->string('edad',2)->nullable();
+            $table->string('sexo',10);
+            $table->date('fnac');
+            $table->string('doc_dni',10); // doc partida o dni
+            $table->string('discp',30)->nullable()->default('Ninguno');
             $table->timestamps();
         });
 
-        Schema::table('address', function($table) {
+        Schema::table('hijo', function($table) {
             $table->foreign('master_code')->references('codigo')->on('master');
         });
     }
@@ -38,6 +37,6 @@ class CreateAddressTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('address');
+        Schema::dropIfExists('hijo');
     }
 }
