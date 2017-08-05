@@ -15,10 +15,11 @@ class AddTableThdia extends Migration
     {
         Schema::create('thdia', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('dia',10);
-            $table->time('entrada',8);
-            $table->time('salida',8);
-            $table->string('totald',5);
+            $table->string('dia',10)->nullable();
+            $table->time('entrada',8)->nullable();
+            $table->time('salida',8)->nullable();
+            $table->string('totald',5)->nullable();
+            $table->boolean('trabaja')->default(1);
             $table->timestamps();
         });
     }
