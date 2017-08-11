@@ -20,7 +20,7 @@ class AddTableHisthdia extends Migration
             $table->string('turno',12);
             $table->timestamps();
 
-            $table->foreign('thdata_id')->references('id')->on('thdata');
+            $table->foreign('thdata_id')->references('tipoh')->on('thdata');
             $table->foreign('thdia_id')->references('id')->on('thdia');
         });
     }

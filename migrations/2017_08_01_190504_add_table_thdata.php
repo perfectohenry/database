@@ -14,7 +14,7 @@ class AddTableThdata extends Migration
     public function up()
     {
         Schema::create('thdata', function (Blueprint $table) {
-            $table->string('id',10)->primary()->unique();
+            $table->string('tipoh',10)->primary()->unique();
             $table->string('tipoha',45)->nullable();
             $table->text('observacion')->nullable();
             $table->integer('particion');
