@@ -55,6 +55,7 @@ class DatabaseSeeder extends Seeder
         $this->call(ThdataTableSeeder::class);
         $this->call(ThdiaTableSeeder::class);
         $this->call(HisthdiaTableSeeder::class);
+        $this->call(TleavedataTableSeeder::class);
     }
 }
     
