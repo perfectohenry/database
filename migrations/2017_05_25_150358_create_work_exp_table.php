@@ -18,6 +18,7 @@ class CreateWorkExpTable extends Migration
             $table->string('master_code',6);
             $table->integer('document_id')->unsigned(); // tipo de documento
             $table->string('doc_number',15);
+            $table->string('docfile')->nullable();
             $table->date('date_expedition');
             $table->integer('position_id')->unsigned(); // tipo de cargo
             $table->boolean('recognized');

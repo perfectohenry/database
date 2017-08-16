@@ -18,6 +18,7 @@ class CreateAppointmentTable extends Migration
             $table->string('master_code',6); // codigo
             $table->integer('document_id')->unsigned(); // tipo de documento
             $table->string('doc_number',15);
+            $table->string('docfile')->nullable();
             $table->date('date_expedition');
             $table->date('date_validity');
             $table->string('attached',4);
@@ -28,7 +29,7 @@ class CreateAppointmentTable extends Migration
             $table->string('modality',15); // puede tipificarse -- pe. CPU (tipos de contratos??
             $table->string('ing_nom_rat',15); // ingreso nombramiento o ratificacion
             $table->string('previous_after',3); // anterior despues
-            $table->string('observation',40);
+            $table->string('observation',40)->nullable();
             $table->timestamps();
         });
 

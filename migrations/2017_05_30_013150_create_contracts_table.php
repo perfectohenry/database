@@ -18,6 +18,7 @@ class CreateContractsTable extends Migration
             $table->string('master_code',6); // codigo
             $table->integer('document_id')->unsigned(); // tipo de documento
             $table->string('doc_number',15);
+            $table->string('docfile')->nullable();
             $table->date('date_expedition');
             $table->date('since');
             $table->date('until');
@@ -29,7 +30,7 @@ class CreateContractsTable extends Migration
             $table->integer('employee_id')->unsigned(); // tipo de trabajador
             $table->string('compo',40); // puede tipificarse - aclarar tipos
             $table->boolean('canceled'); // anulado
-            $table->string('observation',40);
+            $table->string('observation',40)->nullable();
             $table->timestamps();
         });
 

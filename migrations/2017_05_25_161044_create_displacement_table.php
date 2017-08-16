@@ -18,6 +18,7 @@ class CreateDisplacementTable extends Migration
             $table->string('master_code',6); // codigo
             $table->integer('document_id')->unsigned(); // tipo de documento
             $table->string('doc_number',15);
+            $table->string('docfile')->nullable();
             $table->date('date_expedition');
             $table->string('exchange_rate',3); // puede tipificarse
             $table->integer('location_origin_id')->unsigned(); // ubicacion origen
@@ -26,7 +27,7 @@ class CreateDisplacementTable extends Migration
             $table->date('since');
             $table->date('until');
             $table->integer('new_position_id')->unsigned(); // tipo de cargo
-            $table->string('observation',40);
+            $table->string('observation',40)->nullable();
             $table->timestamps();
         });
 

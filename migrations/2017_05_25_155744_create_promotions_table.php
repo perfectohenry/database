@@ -18,6 +18,7 @@ class CreatePromotionsTable extends Migration
             $table->string('master_code',6); // codigo
             $table->integer('document_id')->unsigned(); // tipo de documento
             $table->string('doc_number',15);
+            $table->string('docfile')->nullable();
             $table->date('date_expedition');
             $table->string('action',3); // puede tipificarse
             $table->date('date_legal_effect');
@@ -28,7 +29,7 @@ class CreatePromotionsTable extends Migration
             $table->string('operative_unit',15);
             $table->string('previous_level',3); // nivel o categoria anterior 
             $table->integer('new_level_id')->unsigned(); // nivel o categoria
-            $table->string('observation',40);
+            $table->string('observation',40)->nullable();
             $table->timestamps();
         });
 

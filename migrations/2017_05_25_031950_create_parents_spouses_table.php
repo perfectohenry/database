@@ -29,7 +29,7 @@ class CreateParentsSpousesTable extends Migration
             $table->boolean('lives_ft'); // vive? si no
             $table->string('name_mother',40); // nombre de la madre
             $table->boolean('lives_mt'); // vive? si no
-            $table->string('observation',40); // observacion
+            $table->string('observation',40)->nullable(); // observacion
             $table->timestamps();
         });
 

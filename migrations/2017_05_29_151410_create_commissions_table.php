@@ -18,6 +18,7 @@ class CreateCommissionsTable extends Migration
             $table->string('master_code',6);
             $table->integer('document_id')->unsigned(); // tipo de documento
             $table->string('doc_number',15);
+            $table->string('docfile')->nullable();
             $table->date('date_expedition');
             $table->string('reason',45);
             $table->string('institution',45);
@@ -25,7 +26,7 @@ class CreateCommissionsTable extends Migration
             $table->date('until');
             $table->string('duration',15);
             $table->string('previous_after',3);
-            $table->string('observation',40);
+            $table->string('observation',40)->nullable();
             $table->timestamps();
         });
 

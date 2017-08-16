@@ -18,6 +18,7 @@ class CreateServiceTimeTable extends Migration
             $table->string('master_code',6); // codigo
             $table->integer('document_id')->unsigned(); // tipo de documento
             $table->string('doc_number',15);
+            $table->string('docfile')->nullable();
             $table->date('date_expedition');
             $table->string('reason',45);
             $table->string('in_decrease',15); // aumento o disminucion
@@ -25,7 +26,7 @@ class CreateServiceTimeTable extends Migration
             $table->date('until');
             $table->string('duration',15);
             $table->integer('afect_id')->unsigned(); // tipo de afecto?
-            $table->string('observation',40);
+            $table->string('observation',40)->nullable();
             $table->string('labor_regime',6);
             $table->string('previous_after',10); // anterior o despues
             $table->timestamps();

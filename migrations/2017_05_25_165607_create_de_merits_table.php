@@ -18,13 +18,14 @@ class CreateDeMeritsTable extends Migration
             $table->string('master_code',6); // codigo
             $table->integer('document_id')->unsigned(); // tipo de documento
             $table->string('doc_number',15);
+            $table->string('docfile')->nullable();
             $table->date('date_expedition');
             $table->string('reason_change',40); // motivo de cambio puede tipificarse
             $table->string('operative_unit',10); // unidad operativa
             $table->boolean('merit_demerit'); // merito demerito
             $table->boolean('with_without'); // con o sin resolucion
             $table->boolean('previous_after'); // anterior o despues
-            $table->string('observation',40);
+            $table->string('observation',40)->nullable();
             $table->timestamps();
         });
 

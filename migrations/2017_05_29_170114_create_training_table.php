@@ -18,6 +18,7 @@ class CreateTrainingTable extends Migration
             $table->string('master_code',6);
             $table->integer('document_id')->unsigned(); // tipo de documento
             $table->string('doc_number',15);
+            $table->string('docfile')->nullable();
             $table->date('date_expedition');
             $table->string('reason',45);
             $table->integer('participation_id')->unsigned(); // tipo de participacion
@@ -29,7 +30,7 @@ class CreateTrainingTable extends Migration
             $table->string('previous_after',3);
             $table->boolean('legalized'); // doc legalizado si/no
             $table->date('date_reception');
-            $table->string('observation',40);
+            $table->string('observation',40)->nullable();
             $table->timestamps();
         });
 

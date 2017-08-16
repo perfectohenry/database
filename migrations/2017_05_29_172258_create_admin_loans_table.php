@@ -18,13 +18,14 @@ class CreateAdminLoansTable extends Migration
             $table->string('master_code',6);
             $table->integer('document_id')->unsigned(); // tipo de documento
             $table->string('doc_number',15); // numero de documento
+            $table->string('docfile')->nullable();
             $table->date('date_expedition'); // fecha de expedicion
             $table->string('more',45); // mas 
             $table->string('monetary_unit',45); // unidad monetaria
             $table->decimal('amount', 7, 2); // monto
             $table->string('validity',45); // validez
             $table->string('nbr_fee',45); // numero de cuotas
-            $table->string('observation',40);
+            $table->string('observation',40)->nullable();
             $table->timestamps();
         });
 

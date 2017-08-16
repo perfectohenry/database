@@ -18,6 +18,7 @@ class CreateLicensesTable extends Migration
             $table->string('master_code',6);
             $table->integer('document_id')->unsigned(); // tipo de documento
             $table->string('doc_number',15);
+            $table->string('docfile')->nullable();
             $table->date('date_expedition');
             $table->integer('leave_id')->unsigned(); // tipo de licencias permisos
             $table->boolean('licence_leave'); // licencia o permiso
@@ -30,7 +31,7 @@ class CreateLicensesTable extends Migration
             $table->string('previous_after',3);
             $table->boolean('canceled'); // anulado
             $table->boolean('referential'); // referencial
-            $table->string('observation',40);
+            $table->string('observation',40)->nullable();
             $table->timestamps();
         });
 

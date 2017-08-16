@@ -18,6 +18,7 @@ class CreateDesignationsTable extends Migration
             $table->string('master_code',6); // codigo
             $table->integer('document_id')->unsigned(); // tipo de documento
             $table->string('doc_number',15);
+            $table->string('docfile')->nullable();
             $table->date('date_expedition');
             $table->integer('position_id')->unsigned(); // tipo de cargo
             $table->string('function',15); // funcion pe. f-1, f-2,etc
@@ -28,7 +29,7 @@ class CreateDesignationsTable extends Migration
             $table->boolean('charge_desig'); // encargatura o designacion
             $table->boolean('previous_after'); // anterior o despues
             $table->boolean('current_doc'); // documentacion vigente si o no
-            $table->string('observation',40);
+            $table->string('observation',40)->nullable();
             $table->timestamps();
         });
 
