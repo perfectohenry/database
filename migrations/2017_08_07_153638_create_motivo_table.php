@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddTableThdia extends Migration
+class CreateMotivoTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,10 @@ class AddTableThdia extends Migration
      */
     public function up()
     {
-        Schema::create('thdia', function (Blueprint $table) {
+        Schema::create('motivo', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('dia',10)->nullable();
-            $table->time('entrada',8)->nullable();
-            $table->time('salida',8)->nullable();
-            $table->string('totald',5)->nullable();
-            $table->boolean('trabaja')->default(1);
+            $table->string('descripcion',30);
+            $table->boolean('estado');
             $table->timestamps();
         });
     }
@@ -31,6 +28,6 @@ class AddTableThdia extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('thdia');
+        Schema::dropIfExists('motivo');
     }
 }
