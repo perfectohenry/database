@@ -24,7 +24,10 @@ class CreateServiceTimeTable extends Migration
             $table->string('in_decrease',15); // aumento o disminucion
             $table->date('since');
             $table->date('until');
-            $table->string('duration',15);
+            $table->string('duration',25);
+            $table->string('years',2);
+            $table->string('months',2);
+            $table->string('days',2);
             $table->integer('afect_id')->unsigned(); // tipo de afecto?
             $table->string('observation',40)->nullable();
             $table->string('labor_regime',6);

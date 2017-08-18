@@ -22,6 +22,8 @@ class CreateMasterTable extends Migration
             $table->string('profession',40);
             $table->string('occupation',40);
             $table->integer('estamento_id')->nullable()->unsigned(); // tipo de estamento
+            $table->integer('location_id')->nullable()->unsigned(); // ubicacion
+            $table->integer('level_id')->nullable()->unsigned(); // nivel
             
             //documentos
             $table->integer('docident_id')->unsigned(); // tipo de documento de identidad
@@ -103,6 +105,8 @@ class CreateMasterTable extends Migration
             $table->foreign('seg_id')->references('id')->on('tsegurodata');
             $table->foreign('discp_id')->references('id')->on('tdiscpdata');
             $table->foreign('estamento_id')->references('id')->on('testamentodata');
+            $table->foreign('location_id')->references('id')->on('tlocationdata');
+            $table->foreign('level_id')->references('id')->on('tleveldata');
         });
         
     }
