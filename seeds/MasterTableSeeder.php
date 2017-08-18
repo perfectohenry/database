@@ -26,6 +26,8 @@ class MasterTableSeeder extends Seeder
                 'profession' => 'Ingeniero de Sistemas',
                 'occupation' => 'Analista programador',
                 'estamento_id' => 2,
+                'location_id' => 2,
+                'level_id' => 36
                 'docident_id' => 1,
                 'docident_nmb' => '66132131',
                 'lm' => NULL,
@@ -83,6 +85,8 @@ class MasterTableSeeder extends Seeder
                 'profession' => 'Ingeniero de Sistemas',
                 'occupation' => 'Analista programador',
                 'estamento_id' => 1,
+                'location_id' => 8,
+                'level_id' => 2
                 'docident_id' => 1,
                 'docident_nmb' => '47839757',
                 'lm' => NULL,
@@ -140,6 +144,8 @@ class MasterTableSeeder extends Seeder
                 'profession' => 'Ingeniero de Sistemas',
                 'occupation' => 'Analista programador',
                 'estamento_id' => 1,
+                'location_id' => 6,
+                'level_id' => 6
                 'docident_id' => 1,
                 'docident_nmb' => '54875441',
                 'lm' => NULL,
