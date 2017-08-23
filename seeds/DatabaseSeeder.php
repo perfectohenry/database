@@ -47,11 +47,11 @@ class DatabaseSeeder extends Seeder
         $this->call('TsegurodataTableSeeder');
         $this->call('TdiscpdataTableSeeder');
         $this->call('TdocidentdataTableSeeder');
-        $this->call(TlocationdataTableSeeder::class);
-        $this->call('MasterTableSeeder');
-        $this->call('TutorialTableSeeder');
+        $this->call('TlocationdataTableSeeder');
         $this->call('TpositiondataTableSeeder');
         $this->call('TlabordataTableSeeder');
+        $this->call('MasterTableSeeder');
+        $this->call('TutorialTableSeeder');
         $this->call('WorkExpTableSeeder');
         $this->call(ThdataTableSeeder::class);
         $this->call(ThdiaTableSeeder::class);
