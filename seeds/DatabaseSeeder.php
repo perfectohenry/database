@@ -47,6 +47,7 @@ class DatabaseSeeder extends Seeder
         $this->call('TsegurodataTableSeeder');
         $this->call('TdiscpdataTableSeeder');
         $this->call('TdocidentdataTableSeeder');
+        $this->call(TlocationdataTableSeeder::class);
         $this->call('MasterTableSeeder');
         $this->call('TutorialTableSeeder');
         $this->call('TpositiondataTableSeeder');
@@ -56,6 +57,7 @@ class DatabaseSeeder extends Seeder
         $this->call(ThdiaTableSeeder::class);
         $this->call(HisthdiaTableSeeder::class);
         $this->call(TleavedataTableSeeder::class);
+        $this->call(LidataTableSeeder::class);
     }
 }
     

@@ -20,21 +20,21 @@ class AddTableLidata extends Migration
             $table->string('doc_number',15);
             $table->date('f_e')->nullable();
             $table->date('f_r')->nullable();
-            $table->integer('pro')->nullable();
+            $table->integer('pro')->nullable(); //promovido
             $table->integer('leave_id')->unsigned(); // tipo de licencias permisos
             $table->boolean('g_s')->default(0); // con o sin goce de haber
             // $table->boolean('licence_leave'); // licencia o permiso
             
-            $table->date('des');
-            $table->date('has');
+            $table->date('des')->nullable();
+            $table->date('has')->nullable();
             $table->string('dur',3);
             $table->string('obc',50)->nullable();
             $table->string('cin',50)->nullable();
             $table->string('obs',50)->nullable();
             $table->string('nha',8)->nullable();
             $table->date('fha')->nullable();
-            $table->boolean('sdo')->default(0);
-            $table->boolean('generate_ha')->default(0);
+            $table->boolean('sdo')->default(0); //procesar sabados y domingos
+            $table->boolean('generate_ha')->default(0); //hoja de accion generado
             $table->timestamps();
         });
 
