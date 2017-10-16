@@ -17,15 +17,19 @@ class CreateRegularizarTable extends Migration
             $table->increments('id');
             $table->string('master_code',6);
             $table->integer('document_id')->unsigned(); // tipo de documento
-            $table->string('Numero',16);
-            $table->date('f_e');
-            $table->date('fre');
-            $table->string('mot',16);
-            $table->string('regu',20);//ingreso, salida, todo el dia
-            $table->boolean('pro');
+            $table->string('nro',20);
+            $table->date('f_e')->nullable();
+            $table->date('fre')->nullable();
             $table->date('des');
             $table->date('has');
+            $table->string('ist',1);//ingreso, salida, todo el dia
             $table->string('reg',7);
+            $table->string('mot',45)->nullable();
+            $table->boolean('pro'); //procede y no procede
+            
+            $table->string('cou',8)->nullable();
+            $table->integer('npr')->default(0);
+            $table->integer('mes');
             $table->string('obs',150);
         });
 

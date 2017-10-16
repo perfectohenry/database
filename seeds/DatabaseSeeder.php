@@ -65,10 +65,13 @@ class DatabaseSeeder extends Seeder
         $this->call('MasterTableSeeder');
         $this->call('TutorialTableSeeder');
         $this->call('WorkExpTableSeeder');
+        $this->call(MotivoTableSeeder::class);
+        $this->call(CompensacionTableSeeder::class);
         $this->call(ThdataTableSeeder::class);
         $this->call(ThdiaTableSeeder::class);
         $this->call(HisthdiaTableSeeder::class);
         $this->call(TleavedataTableSeeder::class);
+        $this->call(LidataTableSeeder::class);
     }
 }
     

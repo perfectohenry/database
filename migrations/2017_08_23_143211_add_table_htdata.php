@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreatePapeletaTable extends Migration
+class AddTableHtdata extends Migration
 {
     /**
      * Run the migrations.
@@ -13,25 +13,24 @@ class CreatePapeletaTable extends Migration
      */
     public function up()
     {
-        Schema::create('papeleta', function (Blueprint $table) {
+        Schema::create('htdata', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('master_code',6);
-            $table->time('sal');
-            $table->time('ret');
-            $table->date('des');
-            $table->date('has');
+            $table->string('master_code',6); //id trabajador
             $table->integer('document_id')->unsigned(); // tipo de documento
-            $table->integer('motivo_id')->unsigned();
-            $table->integer('compensacion_id')->unsigned();
-            $table->string('asunto',100);
+            $table->string('doc_number',30);
+            $table->date('f_e',8)->nullable();
+            $table->string('thdata_id',10); //id horario
+            $table->boolean('active')->default(1); // horario activado
+            $table->date('des',8)->nullable();
+            $table->date('has',8)->nullable();
+            $table->text('obs')->nullable();
             $table->timestamps();
         });
 
-        Schema::table('papeleta', function($table) {
+        Schema::table('htdata', function($table) {
             $table->foreign('master_code')->references('codigo')->on('master');
             $table->foreign('document_id')->references('id')->on('tdocumentdata');
-            $table->foreign('motivo_id')->references('id')->on('motivo');
-            $table->foreign('compensacion_id')->references('id')->on('compensacion');
+            $table->foreign('thdata_id')->references('tipoh')->on('thdata');
         });
     }
 
@@ -42,6 +41,6 @@ class CreatePapeletaTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('papeleta');
+        Schema::dropIfExists('htdata');
     }
 }
