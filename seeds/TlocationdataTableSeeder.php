@@ -20,6 +20,201 @@ class TlocationdataTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1,
+                'location_code' => '01010101',
+                'level_1' => '01',
+                'level_2' => '01',
+                'level_3' => '01',
+                'level_4' => '01',
+                'level_5' => '00',
+                'dependence' => 'Dependiencia',
+                'initials' => 'DPD',
+                'observation' => 'Observaciones',
+                'created_at' => '2017-08-12 23:25:06',
+                'updated_at' => '2017-08-12 23:25:06',
+            ),
+            1 => 
+            array (
+                'id' => 2,
+                'location_code' => '0601',
+                'level_1' => '06',
+                'level_2' => '01',
+                'level_3' => '00',
+                'level_4' => '00',
+                'level_5' => '00',
+                'dependence' => 'Facultad de Ingeniería',
+                'initials' => 'FAIN',
+                'observation' => 'Observation',
+                'created_at' => '2017-09-12 02:35:12',
+                'updated_at' => '2017-09-12 02:35:12',
+            ),
+            2 => 
+            array (
+                'id' => 3,
+                'location_code' => '06010501',
+                'level_1' => '06',
+                'level_2' => '01',
+                'level_3' => '05',
+                'level_4' => '01',
+                'level_5' => '00',
+                'dependence' => 'Escuela Profesional de Ingeniería de Minas',
+                'initials' => 'ESMI',
+                'observation' => 'Observation',
+                'created_at' => '2017-09-12 02:36:50',
+                'updated_at' => '2017-09-12 02:36:50',
+            ),
+            3 => 
+            array (
+                'id' => 4,
+                'location_code' => '06010502',
+                'level_1' => '06',
+                'level_2' => '01',
+                'level_3' => '05',
+                'level_4' => '02',
+                'level_5' => '00',
+                'dependence' => 'Escuela Profesional de Ingeniería Metalúrgica y Materiales',
+                'initials' => 'ESME',
+                'observation' => 'Observation',
+                'created_at' => '2017-09-12 02:38:02',
+                'updated_at' => '2017-09-12 02:38:02',
+            ),
+            4 => 
+            array (
+                'id' => 5,
+                'location_code' => '06010503',
+                'level_1' => '06',
+                'level_2' => '01',
+                'level_3' => '05',
+                'level_4' => '03',
+                'level_5' => '00',
+                'dependence' => 'Escuela Profesional de Ingeniería Mecánica',
+                'initials' => 'ESMC',
+                'observation' => 'Observation',
+                'created_at' => '2017-09-12 02:38:36',
+                'updated_at' => '2017-09-12 02:38:36',
+            ),
+            5 => 
+            array (
+                'id' => 6,
+                'location_code' => '06010504',
+                'level_1' => '06',
+                'level_2' => '01',
+                'level_3' => '05',
+                'level_4' => '04',
+                'level_5' => '00',
+                'dependence' => 'Escuela Profesional de Ingeniería Informátca y Sistemas',
+                'initials' => 'ESIS',
+                'observation' => 'Observation',
+                'created_at' => '2017-09-12 02:39:16',
+                'updated_at' => '2017-09-12 02:39:16',
+            ),
+            6 => 
+            array (
+                'id' => 7,
+                'location_code' => '06010505',
+                'level_1' => '06',
+                'level_2' => '01',
+                'level_3' => '05',
+                'level_4' => '05',
+                'level_5' => '00',
+                'dependence' => 'Escuela Profesional de Ingeniería Química',
+                'initials' => 'ESIQ',
+                'observation' => 'Observation',
+                'created_at' => '2017-09-12 02:40:04',
+                'updated_at' => '2017-09-12 02:40:04',
+            ),
+            7 => 
+            array (
+                'id' => 8,
+                'location_code' => '060106',
+                'level_1' => '06',
+                'level_2' => '01',
+                'level_3' => '06',
+                'level_4' => '00',
+                'level_5' => '00',
+                'dependence' => 'Departamentos Académicos',
+                'initials' => 'FAINDA',
+                'observation' => 'Observation',
+                'created_at' => '2017-09-12 02:41:17',
+                'updated_at' => '2017-09-12 02:41:17',
+            ),
+            8 => 
+            array (
+                'id' => 9,
+                'location_code' => '06010601',
+                'level_1' => '06',
+                'level_2' => '01',
+                'level_3' => '06',
+                'level_4' => '01',
+                'level_5' => '00',
+                'dependence' => 'Departamentos Académico de Ingeniería de Minas',
+                'initials' => 'DAIM',
+                'observation' => 'Observation',
+                'created_at' => '2017-09-12 02:42:16',
+                'updated_at' => '2017-09-12 02:42:16',
+            ),
+            9 => 
+            array (
+                'id' => 10,
+                'location_code' => '06010602',
+                'level_1' => '06',
+                'level_2' => '01',
+                'level_3' => '06',
+                'level_4' => '02',
+                'level_5' => '00',
+                'dependence' => 'Departamento Académico de Ingeniería Metalúrgica y Materiale',
+                'initials' => 'DAME',
+                'observation' => 'Observation',
+                'created_at' => '2017-09-12 02:43:38',
+                'updated_at' => '2017-09-12 02:43:38',
+            ),
+            10 => 
+            array (
+                'id' => 11,
+                'location_code' => '06010603',
+                'level_1' => '06',
+                'level_2' => '01',
+                'level_3' => '06',
+                'level_4' => '03',
+                'level_5' => '00',
+                'dependence' => 'Departamentos Académico de Ingeniería Mecánica',
+                'initials' => 'DAMC',
+                'observation' => 'Observation',
+                'created_at' => '2017-09-12 02:44:30',
+                'updated_at' => '2017-09-12 02:44:30',
+            ),
+            11 => 
+            array (
+                'id' => 12,
+                'location_code' => '06010604',
+                'level_1' => '06',
+                'level_2' => '01',
+                'level_3' => '06',
+                'level_4' => '04',
+                'level_5' => '00',
+                'dependence' => 'Departamentos Académico de Ingeniería Informática y Sistemas',
+                'initials' => 'DAIS',
+                'observation' => 'Observation',
+                'created_at' => '2017-09-12 02:45:29',
+                'updated_at' => '2017-09-12 02:45:29',
+            ),
+            12 => 
+            array (
+                'id' => 13,
+                'location_code' => '06010605',
+                'level_1' => '06',
+                'level_2' => '01',
+                'level_3' => '06',
+                'level_4' => '05',
+                'level_5' => '00',
+                'dependence' => 'Departamentos Académico de Ingeniería Química',
+                'initials' => 'DAIQ',
+                'observation' => 'Observation',
+                'created_at' => '2017-09-12 02:46:25',
+                'updated_at' => '2017-09-12 02:46:25',
+            ),
+            13 => 
+            array (
+                'id' => 14,
                 'location_code' => '050101',
                 'level_1' => '05',
                 'level_2' => '01',
@@ -32,9 +227,9 @@ class TlocationdataTableSeeder extends Seeder
                 'created_at' => '2017-07-24 19:58:22',
                 'updated_at' => '2017-07-24 19:58:22',
             ),
-            1 => 
+            14 => 
             array (
-                'id' => 2,
+                'id' => 15,
                 'location_code' => '050102',
                 'level_1' => '05',
                 'level_2' => '01',
@@ -47,9 +242,9 @@ class TlocationdataTableSeeder extends Seeder
                 'created_at' => '2017-07-24 19:59:39',
                 'updated_at' => '2017-07-24 19:59:39',
             ),
-            2 => 
+            15 => 
             array (
-                'id' => 3,
+                'id' => 16,
                 'location_code' => '050103',
                 'level_1' => '05',
                 'level_2' => '01',
@@ -62,9 +257,9 @@ class TlocationdataTableSeeder extends Seeder
                 'created_at' => '2017-07-24 20:02:06',
                 'updated_at' => '2017-07-24 20:02:06',
             ),
-            3 => 
+            16 => 
             array (
-                'id' => 4,
+                'id' => 17,
                 'location_code' => '050104',
                 'level_1' => '05',
                 'level_2' => '01',
@@ -77,9 +272,9 @@ class TlocationdataTableSeeder extends Seeder
                 'created_at' => '2017-07-24 20:03:15',
                 'updated_at' => '2017-07-24 20:03:15',
             ),
-            4 => 
+            17 => 
             array (
-                'id' => 5,
+                'id' => 18,
                 'location_code' => '0501',
                 'level_1' => '05',
                 'level_2' => '01',
@@ -92,9 +287,9 @@ class TlocationdataTableSeeder extends Seeder
                 'created_at' => '2017-07-24 20:09:43',
                 'updated_at' => '2017-07-24 20:10:13',
             ),
-            5 => 
+            18 => 
             array (
-                'id' => 6,
+                'id' => 19,
                 'location_code' => '0502',
                 'level_1' => '05',
                 'level_2' => '02',
@@ -107,9 +302,9 @@ class TlocationdataTableSeeder extends Seeder
                 'created_at' => '2017-07-24 20:13:20',
                 'updated_at' => '2017-07-24 20:13:20',
             ),
-            6 => 
+            19 => 
             array (
-                'id' => 7,
+                'id' => 20,
                 'location_code' => '0503',
                 'level_1' => '05',
                 'level_2' => '03',
@@ -122,9 +317,9 @@ class TlocationdataTableSeeder extends Seeder
                 'created_at' => '2017-07-24 20:15:38',
                 'updated_at' => '2017-07-24 20:15:38',
             ),
-            7 => 
+            21 => 
             array (
-                'id' => 8,
+                'id' => 22,
                 'location_code' => '0504',
                 'level_1' => '05',
                 'level_2' => '04',
@@ -137,9 +332,9 @@ class TlocationdataTableSeeder extends Seeder
                 'created_at' => '2017-07-24 20:17:08',
                 'updated_at' => '2017-07-24 20:17:08',
             ),
-            8 => 
+            22 => 
             array (
-                'id' => 9,
+                'id' => 23,
                 'location_code' => '0505',
                 'level_1' => '05',
                 'level_2' => '05',

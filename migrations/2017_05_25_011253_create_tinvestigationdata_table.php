@@ -15,9 +15,10 @@ class CreateTinvestigationdataTable extends Migration
     {
         Schema::create('tinvestigationdata', function (Blueprint $table) { // tipo de investigacion
             $table->increments('id');
-            $table->string('initials',5);
-            $table->string('investigation',40);
-            $table->string('observation',40);
+            // $table->string('initials',5);
+            $table->string('investigation',50);
+            $table->boolean('reginvpub'); // inv o pub
+            $table->string('observation',100);
             $table->timestamps();
         });
     }

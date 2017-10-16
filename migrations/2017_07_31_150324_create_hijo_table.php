@@ -16,12 +16,12 @@ class CreateHijoTable extends Migration
         Schema::create('hijo', function (Blueprint $table) { // direccion
             $table->increments('id');
             $table->string('master_code',6);
-            $table->string('last_name',50);
+            $table->string('last_namehj',50);
             $table->string('edad',2)->nullable();
             $table->string('sexo',10);
             $table->date('fnac');
-            $table->string('doc_dni',10); // doc partida o dni
-            $table->string('discp',30)->nullable()->default('Ninguno');
+            $table->string('doc_dnihj',10); // doc partida o dni
+            $table->string('discp',50)->nullable()->default('Ninguno');
             $table->timestamps();
         });
 

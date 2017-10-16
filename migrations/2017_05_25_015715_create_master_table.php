@@ -18,12 +18,18 @@ class CreateMasterTable extends Migration
             $table->string('codigo', 6)->primary()->unique();
             $table->string('name',35);
             $table->string('lastname',35);
-            $table->string('lvlstudy',40);
-            $table->string('profession',40);
-            $table->string('occupation',40);
+            $table->integer('lvlstudy_id')->unsigned(); // tipo de profesiones
+            $table->integer('profesion_id')->unsigned(); // tipo de profesiones
+            $table->integer('ocupacion_id')->unsigned(); // tipo de ocupacion
+
             $table->integer('estamento_id')->nullable()->unsigned(); // tipo de estamento
             $table->integer('location_id')->nullable()->unsigned(); // ubicacion
             $table->integer('level_id')->nullable()->unsigned(); // nivel
+            $table->integer('funcdir_id')->nullable()->unsigned(); // funcion/directiva
+            $table->date('fie')->nullable();  // fecha de ingreso al estado
+            $table->date('fiu')->nullable();  // fecha de ingreso a la universidad
+            $table->integer('employee_id')->nullable()->unsigned(); // tipo de trabajador (figurativo)
+            $table->string('file')->nullable();  // imagen
             
             //documentos
             $table->integer('docident_id')->unsigned(); // tipo de documento de identidad
@@ -51,7 +57,7 @@ class CreateMasterTable extends Migration
 
                 // sindicalizado
                 $table->boolean('syndicated')->default(0); // si o no
-                $table->string('name_union',45)->nullable(); // nombre del sindicato
+                $table->integer('sindicato_id')->nullable()->unsigned(); // tipo de discapacidad
 
             // regimen de pensiones
             $table->integer('regpen_id')->nullable()->unsigned(); // tipo de regimen pensionario
@@ -66,29 +72,21 @@ class CreateMasterTable extends Migration
             $table->string('civil_status',15); // estado civil
             $table->string('blood_type',5)->nullable(); // grupo sanguineo
             $table->date('birthdate');  // fech nac
-            $table->string('nationality',15); // nacionalidad
-            $table->integer('department_id')->unsigned();
-            $table->integer('province_id')->unsigned();
-            $table->integer('district_id')->unsigned();
+            $table->integer('country_id')->unsigned(); // pais
+            $table->string('city',100)->nullable(); // ciudad
+            $table->integer('department_id')->nullable()->unsigned();
+            $table->integer('province_id')->nullable()->unsigned();
+            $table->integer('district_id')->nullable()->unsigned();
 
             // datos familiares
-                // conyugue
-                $table->string('last_name',50)->nullable(); // apel nombre
-                $table->date('birthdate1')->nullable();  // fech nac cony
-                $table->date('datemarriage')->nullable();  // fech matrimonio
-                $table->string('dnicy',8)->nullable();  // dni
-                $table->string('marriage_certificate',20)->nullable();  // certificado de mat
-                $table->string('employment',40)->nullable();  // trabajo
-                $table->string('work_center',40)->nullable();  // centro de trabajo
-                $table->string('phone',13)->nullable();  // telefono
-                $table->string('cellphone',13)->nullable();  // celular
-                $table->string('email',191)->nullable();  // email
 
                 //padres
                 $table->boolean('vivepd')->default(0); // se puede omitir
-                $table->string('apl_nmbp',50)->nullable();  // nombre padre
+                $table->string('namep',40)->nullable();  // nombre padre
+                $table->string('lastnamep',40)->nullable();  // nombre padre
                 $table->boolean('vivemd')->default(0); // se puede omitir
-                $table->string('apl_nmbm',50)->nullable();  // nombre madre         
+                $table->string('namem',40)->nullable();  // nombre madre         
+                $table->string('lastnamem',40)->nullable();  // nombre madre         
 
             $table->timestamps();
         });
@@ -107,6 +105,18 @@ class CreateMasterTable extends Migration
             $table->foreign('estamento_id')->references('id')->on('testamentodata');
             $table->foreign('location_id')->references('id')->on('tlocationdata');
             $table->foreign('level_id')->references('id')->on('tleveldata');
+            // $table->foreign('funcdir_id')->references('id')->on('tfuncdirdata');
+            $table->foreign('funcdir_id')->references('id')->on('tleveldata');
+            $table->foreign('employee_id')->references('id')->on('temployeedata');
+
+            $table->foreign('country_id')->references('id')->on('tcountrydata');
+
+            $table->foreign('profesion_id')->references('id')->on('tprofesiondata');
+            $table->foreign('ocupacion_id')->references('id')->on('tocupaciondata');
+
+            $table->foreign('sindicato_id')->references('id')->on('tsindicatodata');
+            $table->foreign('lvlstudy_id')->references('id')->on('tlvlstudydata');
+
         });
         
     }

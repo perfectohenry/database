@@ -17,6 +17,7 @@ class CreateTacademicdegreedataTable extends Migration
             $table->increments('id');
             $table->string('initials',5);
             $table->string('academicdegree',40); // bachiller-titulo profesional-magister-
+            $table->boolean('reggradtpr'); // grado o titulo
             $table->string('observation',40); // doctorado-segunda especialidad-colegiatura
             $table->timestamps();
         });

@@ -15,9 +15,9 @@ class CreateTbancodataTable extends Migration
     {
         Schema::create('tbancodata', function (Blueprint $table) { // entidades financieras
             $table->increments('id');
-            $table->string('initials',5);
-            $table->string('banco',40);
-            $table->string('observation',40);
+            $table->string('initials',5)->nullable();
+            $table->string('banco',100);
+            $table->string('observation',100)->nullable();
             $table->timestamps();
         });
     }

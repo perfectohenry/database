@@ -15,7 +15,7 @@ class CreateTpositiondataTable extends Migration
     {
         Schema::create('tpositiondata', function (Blueprint $table) { // cargos o puestos
             $table->increments('id');
-            $table->integer('employee_id')->unsigned(); // estamento
+            $table->integer('estamento_id')->unsigned(); // estamento
             $table->string('initials',5);
             $table->string('position',40);
             $table->boolean('activo')->default(1); // activo / no activo
@@ -24,7 +24,7 @@ class CreateTpositiondataTable extends Migration
         });
 
         Schema::table('tpositiondata', function($table) {
-            $table->foreign('employee_id')->references('id')->on('temployeedata');
+            $table->foreign('estamento_id')->references('id')->on('testamentodata');
         });
     }
 

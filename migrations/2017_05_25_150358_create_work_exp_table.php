@@ -17,24 +17,26 @@ class CreateWorkExpTable extends Migration
             $table->increments('id');
             $table->string('master_code',6);
             $table->integer('document_id')->unsigned(); // tipo de documento
-            $table->string('doc_number',15);
+            $table->string('doc_number',20);
             $table->string('docfile')->nullable();
             $table->date('date_expedition');
-            $table->integer('position_id')->unsigned(); // tipo de cargo
+            $table->integer('positionheld_id')->unsigned(); // tipo de cargo
             $table->boolean('recognized');
             $table->integer('labor_id')->unsigned(); // tipo de labor
             $table->string('condition',10);
             $table->date('since');
             $table->date('until');
-            $table->string('institution',40);
-            $table->string('observation',40)->nullable();
+            // $table->string('institution',40);
+            $table->integer('institution_id')->unsigned();
+            $table->string('observation',500)->nullable();
             $table->timestamps();
         });
 
         Schema::table('work_exp', function($table) {
             $table->foreign('master_code')->references('codigo')->on('master');
             $table->foreign('document_id')->references('id')->on('tdocumentdata');
-            $table->foreign('position_id')->references('id')->on('tpositiondata');
+            $table->foreign('positionheld_id')->references('id')->on('tpositionhelddata');
+            $table->foreign('institution_id')->references('id')->on('tinstitutiondata');
             $table->foreign('labor_id')->references('id')->on('tlabordata');
         });
     }

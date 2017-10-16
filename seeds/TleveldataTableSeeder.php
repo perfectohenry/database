@@ -21,6 +21,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 1,
                 'estamento_id' => 1,
+                'leveltype_id' => 2,
                 'initials' => 'SPA',
                 'level' => 'Servidor Profesional A',
                 'activo' => 1,
@@ -32,6 +33,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 2,
                 'estamento_id' => 1,
+                'leveltype_id' => 2,
                 'initials' => 'SPB',
                 'level' => 'Servidor Profesional B',
                 'activo' => 1,
@@ -43,6 +45,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 3,
                 'estamento_id' => 1,
+                'leveltype_id' => 2,
                 'initials' => 'SPC',
                 'level' => 'Servidor Profesional C',
                 'activo' => 1,
@@ -54,6 +57,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 4,
                 'estamento_id' => 1,
+                'leveltype_id' => 2,
                 'initials' => 'SPD',
                 'level' => 'Servidor Profesional D',
                 'activo' => 1,
@@ -65,6 +69,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 5,
                 'estamento_id' => 1,
+                'leveltype_id' => 2,
                 'initials' => 'SPE',
                 'level' => 'Servidor Profesional E',
                 'activo' => 1,
@@ -76,6 +81,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 6,
                 'estamento_id' => 1,
+                'leveltype_id' => 3,
                 'initials' => 'STA',
                 'level' => 'Servidor Tecnico A',
                 'activo' => 1,
@@ -87,6 +93,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 7,
                 'estamento_id' => 1,
+                'leveltype_id' => 3,
                 'initials' => 'STB',
                 'level' => 'Servidor Tecnico B',
                 'activo' => 1,
@@ -98,6 +105,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 8,
                 'estamento_id' => 1,
+                'leveltype_id' => 3,
                 'initials' => 'STC',
                 'level' => 'Servidor Tecnico C',
                 'activo' => 1,
@@ -109,6 +117,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 9,
                 'estamento_id' => 1,
+                'leveltype_id' => 3,
                 'initials' => 'STD',
                 'level' => 'Servidor Tecnico D',
                 'activo' => 1,
@@ -120,6 +129,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 10,
                 'estamento_id' => 1,
+                'leveltype_id' => 3,
                 'initials' => 'STE',
                 'level' => 'Servidor Tecnico E',
                 'activo' => 1,
@@ -131,6 +141,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 11,
                 'estamento_id' => 1,
+                'leveltype_id' => 4,
                 'initials' => 'SAA',
                 'level' => 'Servidor Auxiliar A',
                 'activo' => 1,
@@ -142,6 +153,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 12,
                 'estamento_id' => 1,
+                'leveltype_id' => 4,
                 'initials' => 'SAB',
                 'level' => 'Servidor Auxiliar B',
                 'activo' => 1,
@@ -153,6 +165,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 13,
                 'estamento_id' => 1,
+                'leveltype_id' => 4,
                 'initials' => 'SAC',
                 'level' => 'Servidor Auxiliar C',
                 'activo' => 1,
@@ -164,6 +177,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 14,
                 'estamento_id' => 1,
+                'leveltype_id' => 4,
                 'initials' => 'SAD',
                 'level' => 'Servidor Auxiliar D',
                 'activo' => 1,
@@ -175,6 +189,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 15,
                 'estamento_id' => 1,
+                'leveltype_id' => 4,
                 'initials' => 'SAE',
                 'level' => 'Servidor Auxiliar E',
                 'activo' => 1,
@@ -186,6 +201,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 16,
                 'estamento_id' => 2,
+                'leveltype_id' => 5,
                 'initials' => 'PDE',
                 'level' => 'Principal Dedicación Exclusiva',
                 'activo' => 1,
@@ -197,6 +213,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 17,
                 'estamento_id' => 2,
+                'leveltype_id' => 6,
                 'initials' => 'ADE',
                 'level' => 'Asociado Dedicación Exclusiva',
                 'activo' => 1,
@@ -208,17 +225,19 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 19,
                 'estamento_id' => 2,
+                'leveltype_id' => 7,
                 'initials' => 'XDE',
                 'level' => 'Auxiliar Dedicación Exclusiva',
                 'activo' => 1,
                 'observation' => 'Auxiliar Dedicación Exclusiva',
                 'created_at' => '2017-07-14 18:29:54',
-                'updated_at' => '2017-07-14 18:29:54',
+                'updated_at' => '0000-00-00 00:00:00',
             ),
             18 => 
             array (
                 'id' => 20,
                 'estamento_id' => 2,
+                'leveltype_id' => 8,
                 'initials' => 'JDE',
                 'level' => 'Jefe de Practicas Dedicación Exclusiva',
                 'activo' => 1,
@@ -230,6 +249,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 21,
                 'estamento_id' => 2,
+                'leveltype_id' => 5,
                 'initials' => 'PTC',
                 'level' => 'Principal Tiempo Completo',
                 'activo' => 1,
@@ -241,6 +261,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 22,
                 'estamento_id' => 2,
+                'leveltype_id' => 6,
                 'initials' => 'ATC',
                 'level' => 'Asociado Tiempo Completo',
                 'activo' => 1,
@@ -252,6 +273,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 23,
                 'estamento_id' => 2,
+                'leveltype_id' => 7,
                 'initials' => 'XTC',
                 'level' => 'Auxiliar Tiempo Completo',
                 'activo' => 1,
@@ -263,6 +285,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 24,
                 'estamento_id' => 2,
+                'leveltype_id' => 8,
                 'initials' => 'JTC',
                 'level' => 'Jefe de Practicas Tiempo Completo',
                 'activo' => 1,
@@ -274,6 +297,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 25,
                 'estamento_id' => 2,
+                'leveltype_id' => 5,
                 'initials' => 'P20',
                 'level' => 'Principal 20',
                 'activo' => 1,
@@ -285,6 +309,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 26,
                 'estamento_id' => 2,
+                'leveltype_id' => 5,
                 'initials' => 'P15',
                 'level' => 'Principal 15',
                 'activo' => 1,
@@ -296,6 +321,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 27,
                 'estamento_id' => 2,
+                'leveltype_id' => 5,
                 'initials' => 'P10',
                 'level' => 'Principal 10',
                 'activo' => 1,
@@ -307,6 +333,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 29,
                 'estamento_id' => 2,
+                'leveltype_id' => 6,
                 'initials' => 'A20',
                 'level' => 'Asociado 20',
                 'activo' => 1,
@@ -318,6 +345,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 30,
                 'estamento_id' => 2,
+                'leveltype_id' => 6,
                 'initials' => 'A15',
                 'level' => 'Asociado 15',
                 'activo' => 1,
@@ -329,6 +357,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 31,
                 'estamento_id' => 2,
+                'leveltype_id' => 6,
                 'initials' => 'A10',
                 'level' => 'Asociado 10',
                 'activo' => 1,
@@ -340,6 +369,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 32,
                 'estamento_id' => 2,
+                'leveltype_id' => 7,
                 'initials' => 'X20',
                 'level' => 'Auxiliar 20',
                 'activo' => 1,
@@ -351,6 +381,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 33,
                 'estamento_id' => 2,
+                'leveltype_id' => 7,
                 'initials' => 'X15',
                 'level' => 'Auxiliar 15',
                 'activo' => 1,
@@ -362,6 +393,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 34,
                 'estamento_id' => 2,
+                'leveltype_id' => 7,
                 'initials' => 'X10',
                 'level' => 'Auxiliar 10',
                 'activo' => 1,
@@ -373,6 +405,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 35,
                 'estamento_id' => 2,
+                'leveltype_id' => 8,
                 'initials' => 'J20',
                 'level' => 'Jefe de Practicas 20',
                 'activo' => 1,
@@ -384,6 +417,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 36,
                 'estamento_id' => 2,
+                'leveltype_id' => 8,
                 'initials' => 'J15',
                 'level' => 'Jefe de Practicas 15',
                 'activo' => 1,
@@ -395,6 +429,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 37,
                 'estamento_id' => 2,
+                'leveltype_id' => 8,
                 'initials' => 'J10',
                 'level' => 'Jefe de Practicas 10',
                 'activo' => 1,
@@ -406,6 +441,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 38,
                 'estamento_id' => 1,
+                'leveltype_id' => 1,
                 'initials' => 'F-1',
                 'level' => 'Funcion 1',
                 'activo' => 1,
@@ -417,6 +453,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 39,
                 'estamento_id' => 1,
+                'leveltype_id' => 1,
                 'initials' => 'F-2',
                 'level' => 'Funcion 2',
                 'activo' => 1,
@@ -428,6 +465,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 40,
                 'estamento_id' => 1,
+                'leveltype_id' => 1,
                 'initials' => 'F-3',
                 'level' => 'Funcion 3',
                 'activo' => 1,
@@ -439,6 +477,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 41,
                 'estamento_id' => 1,
+                'leveltype_id' => 1,
                 'initials' => 'F-4',
                 'level' => 'Funcion 4',
                 'activo' => 1,
@@ -450,6 +489,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 42,
                 'estamento_id' => 1,
+                'leveltype_id' => 1,
                 'initials' => 'F-5',
                 'level' => 'Funcion 5',
                 'activo' => 1,
@@ -461,6 +501,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 43,
                 'estamento_id' => 2,
+                'leveltype_id' => 9,
                 'initials' => 'D001',
                 'level' => 'Rector',
                 'activo' => 1,
@@ -472,6 +513,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 44,
                 'estamento_id' => 2,
+                'leveltype_id' => 9,
                 'initials' => 'D002',
                 'level' => 'Vicerrector',
                 'activo' => 1,
@@ -483,6 +525,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 45,
                 'estamento_id' => 2,
+                'leveltype_id' => 9,
                 'initials' => 'D003',
                 'level' => 'Decano, Dir. Esc. Post Grado, Sec. Gral.',
                 'activo' => 1,
@@ -494,6 +537,7 @@ class TleveldataTableSeeder extends Seeder
             array (
                 'id' => 46,
                 'estamento_id' => 2,
+                'leveltype_id' => 9,
                 'initials' => 'D004',
                 'level' => 'Dir. Esc. Profesional, Jefe Dep. Acad.',
                 'activo' => 1,

@@ -16,6 +16,7 @@ class CreateTleveldataTable extends Migration
         Schema::create('tleveldata', function (Blueprint $table) {  // niveles o categorias
             $table->increments('id');
             $table->integer('estamento_id')->unsigned(); // estamento
+            $table->integer('leveltype_id')->unsigned(); // estamento
             $table->string('initials',4); // STA, STB, SPA, SPB, SAA, SAB, ...
             $table->string('level',40);
             $table->boolean('activo')->default(1); // activo / no activo
@@ -25,6 +26,7 @@ class CreateTleveldataTable extends Migration
 
         Schema::table('tleveldata', function($table) {
             $table->foreign('estamento_id')->references('id')->on('testamentodata');
+            $table->foreign('leveltype_id')->references('id')->on('tleveltypedata');
         });
 
     }

@@ -17,7 +17,7 @@ class AddTableLidata extends Migration
             $table->increments('id');
             $table->string('master_code',6);
             $table->integer('document_id')->unsigned(); // tipo de documento
-            $table->string('doc_number',15);
+            $table->string('doc_number',20);
             $table->date('f_e')->nullable();
             $table->date('f_r')->nullable();
             $table->integer('pro')->nullable();

@@ -17,7 +17,7 @@ class CreatePensionRegTable extends Migration
             $table->increments('id');
             $table->string('master_code',6); // codigo
             $table->integer('document_id')->unsigned(); // tipo de documento
-            $table->string('doc_number',15);
+            $table->string('doc_number',20);
             $table->string('docfile')->nullable();
             $table->date('date_expedition');
             $table->date('date_val_pension');
@@ -32,7 +32,7 @@ class CreatePensionRegTable extends Migration
             $table->date('date_income_state'); // feha de ingreso al estado
             $table->date('date_expiration_state'); // feha de termino al estado
             $table->date('date_income_uni'); // feha de ingreso a la universidad 
-            $table->string('observation',40)->nullable();
+            $table->string('observation',500)->nullable();
             $table->timestamps();
         });
 

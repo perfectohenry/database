@@ -27,14 +27,15 @@ class DatabaseSeeder extends Seeder
             'username' => 'admin',
             'email' => 'admin@gmail.com',
             'password' => bcrypt('admin'),
-			'lastname' => 'Admin',
-			'firstname' => 'Admin'
+            'lastname' => 'Admin',
+            'firstname' => 'Admin'
         ]);
 
         $this->call('TdepartmentdataTableSeeder');
         $this->call('TprovincedataTableSeeder');
         $this->call('TdistrictdataTableSeeder');
         $this->call('TestamentodataTableSeeder');
+        $this->call('TleveltypedataTableSeeder');
         $this->call('TleveldataTableSeeder');
         $this->call('TemployeedataTableSeeder');
         $this->call('TdocumentdataTableSeeder');
@@ -50,6 +51,17 @@ class DatabaseSeeder extends Seeder
         $this->call('TlocationdataTableSeeder');
         $this->call('TpositiondataTableSeeder');
         $this->call('TlabordataTableSeeder');
+        $this->call('TcountrydataTableSeeder'); // datos fijos -- uso ids para las validaciones 
+        $this->call('TtrainingdataTableSeeder'); // datos fijos
+        $this->call('TacademicdegreedataTableSeeder');
+        $this->call('TafectdataTableSeeder');
+        $this->call('TinvestigationdataTableSeeder');
+        $this->call('TfuncdirdataTableSeeder');
+        $this->call('TlvlstudydataTableSeeder');
+
+        $this->call('TuniversidaddataTableSeeder');
+        $this->call('TcarreradataTableSeeder');
+        
         $this->call('MasterTableSeeder');
         $this->call('TutorialTableSeeder');
         $this->call('WorkExpTableSeeder');

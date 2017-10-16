@@ -22,7 +22,7 @@ class CreateDriversLicenseTable extends Migration
             $table->date('date_revalidation');
             $table->string('class',2);
             $table->string('category',3);
-            $table->string('observation',40);
+            $table->string('observation',500);
             $table->timestamps();
         });
 

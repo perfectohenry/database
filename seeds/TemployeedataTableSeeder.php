@@ -77,6 +77,16 @@ class TemployeedataTableSeeder extends Seeder
                 'created_at' => '2017-07-14 19:17:54',
                 'updated_at' => '2017-07-14 19:17:54',
             ),
+            6 => 
+            array (
+                'id' => 8,
+                'estamento_id' => 1,
+                'initials' => 'PF',
+                'employee' => 'A plazo Fijo',
+                'observation' => 'A plazo Fijo',
+                'created_at' => '2017-07-14 19:17:54',
+                'updated_at' => '2017-07-14 19:17:54',
+            ),
         ));
         
         

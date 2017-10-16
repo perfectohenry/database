@@ -17,17 +17,17 @@ class CreateDisplacementTable extends Migration
             $table->increments('id');
             $table->string('master_code',6); // codigo
             $table->integer('document_id')->unsigned(); // tipo de documento
-            $table->string('doc_number',15);
+            $table->string('doc_number',20);
             $table->string('docfile')->nullable();
             $table->date('date_expedition');
             $table->string('exchange_rate',3); // puede tipificarse
             $table->integer('location_origin_id')->unsigned(); // ubicacion origen
             $table->integer('location_destination_id')->unsigned(); // ubicacion destino
-            $table->string('reason_change',40); // motivo de cambio puede tipificarse
+            $table->string('reason_change',100); // motivo de cambio puede tipificarse
             $table->date('since');
             $table->date('until');
             $table->integer('new_position_id')->unsigned(); // tipo de cargo
-            $table->string('observation',40)->nullable();
+            $table->string('observation',500)->nullable();
             $table->timestamps();
         });
 

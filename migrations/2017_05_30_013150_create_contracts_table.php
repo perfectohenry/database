@@ -17,20 +17,26 @@ class CreateContractsTable extends Migration
             $table->increments('id');
             $table->string('master_code',6); // codigo
             $table->integer('document_id')->unsigned(); // tipo de documento
-            $table->string('doc_number',15);
+            $table->string('doc_number',20);
             $table->string('docfile')->nullable();
+            $table->string('doc_contract',20);
+            $table->string('contractfile')->nullable();
             $table->date('date_expedition');
             $table->date('since');
             $table->date('until');
+            $table->string('duration',25);
+            $table->string('years',2);
+            $table->string('months',2);
+            $table->string('days',2);
             $table->integer('level_id')->unsigned(); // nivel o categoria
             $table->integer('position_id')->unsigned(); // tipo de cargo
             $table->integer('fundingsource_id')->unsigned(); // tipo de ff
             $table->integer('contract_id')->unsigned(); // tipo de contrato
             $table->integer('location_id')->unsigned(); // ubicacion
             $table->integer('employee_id')->unsigned(); // tipo de trabajador
-            $table->string('compo',40); // puede tipificarse - aclarar tipos
+            $table->string('compo',40)->nullable(); // puede tipificarse - aclarar tipos
             $table->boolean('canceled'); // anulado
-            $table->string('observation',40)->nullable();
+            $table->string('observation',500)->nullable();
             $table->timestamps();
         });
 

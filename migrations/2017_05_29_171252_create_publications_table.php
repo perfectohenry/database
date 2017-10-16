@@ -17,14 +17,16 @@ class CreatePublicationsTable extends Migration
             $table->increments('id');
             $table->string('master_code',6);
             $table->integer('document_id')->unsigned(); // tipo de documento
-            $table->string('doc_number',15);
+            $table->string('doc_number',20);
             $table->string('docfile')->nullable();
             $table->date('date_expedition');
             $table->string('inv_pub',3); // investigacion o publicacion
             $table->string('previous_after',3);
             $table->integer('investigation_id')->unsigned(); // tipo de publicaciones
-            $table->string('title',45);
-            $table->string('observation',40)->nullable();
+            $table->string('title',100);
+            $table->string('dinaregina',3); // registra pub en dina-regina
+            $table->string('regcode',50)->nullable(); // codigo de registro
+            $table->string('observation',500)->nullable();
             $table->timestamps();
         });
 

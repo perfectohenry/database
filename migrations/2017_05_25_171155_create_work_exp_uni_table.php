@@ -17,7 +17,7 @@ class CreateWorkExpUniTable extends Migration
             $table->increments('id');
             $table->string('master_code',6);
             $table->integer('document_id')->unsigned(); // tipo de documento
-            $table->string('doc_number',15);
+            $table->string('doc_number',20);
             $table->string('docfile')->nullable();
             $table->date('date_expedition');
             $table->string('location',5);
@@ -25,7 +25,7 @@ class CreateWorkExpUniTable extends Migration
             $table->integer('position_id')->unsigned(); // tipo de cargo
             $table->date('since');
             $table->date('until');
-            $table->string('observation',40)->nullable();
+            $table->string('observation',500)->nullable();
             $table->timestamps();
         });
 

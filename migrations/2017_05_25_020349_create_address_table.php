@@ -16,18 +16,23 @@ class CreateAddressTable extends Migration
         Schema::create('address', function (Blueprint $table) { // direccion
             $table->increments('id');
             $table->string('master_code',6);
-            $table->string('place',20)->nullable();
-            $table->string('addres',40);
-            $table->string('phone',13)->nullable();
-            $table->string('cell_phone',13)->nullable();
-            $table->string('email')->nullable();
-            $table->string('postal_mail',15)->nullable();
-            $table->string('observation',40)->nullable();
+            $table->string('addres',100)->nullable();  // direccion de domicilio
+            $table->string('addresp',100)->nullable(); // direccion procesal
+            $table->integer('country_id')->unsigned(); // pais | si(peru)=>city=null
+            $table->string('city',50)->nullable(); // ciudad
+            $table->integer('department_id')->unsigned()->nullable();
+            $table->integer('province_id')->unsigned()->nullable();
+            $table->integer('district_id')->unsigned()->nullable();
+            $table->string('observation',500)->nullable();
             $table->timestamps();
         });
 
         Schema::table('address', function($table) {
             $table->foreign('master_code')->references('codigo')->on('master');
+            $table->foreign('country_id')->references('id')->on('tcountrydata');
+            $table->foreign('department_id')->references('id')->on('tdepartmentdata');
+            $table->foreign('province_id')->references('id')->on('tprovincedata');
+            $table->foreign('district_id')->references('id')->on('tdistrictdata');
         });
     }
 
