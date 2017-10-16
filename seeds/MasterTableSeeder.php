@@ -352,7 +352,7 @@ class MasterTableSeeder extends Seeder
                 'created_at' => '2017-10-16 19:15:58',
                 'updated_at' => '2017-10-16 19:15:58',
             ),
-            3 => 
+            5 => 
             array (
                 'codigo' => 'PP0016',
                 'name' => 'Paolo Andre',
