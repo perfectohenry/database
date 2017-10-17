@@ -20,7 +20,7 @@ class LidataTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1,
-                'master_code' => 'AA0959',
+                'master_code' => 'CP5478',
                 'document_id' => 12,
                 'doc_number' => '108-02-UCT/OEFI',
                 'f_e' => '2017-07-12',
@@ -44,7 +44,7 @@ class LidataTableSeeder extends Seeder
             1 => 
             array (
                 'id' => 2,
-                'master_code' => 'AA0959',
+                'master_code' => 'CP5478',
                 'document_id' => 15,
                 'doc_number' => '107-03-UTI/OSIS',
                 'f_e' => '2017-03-22',
