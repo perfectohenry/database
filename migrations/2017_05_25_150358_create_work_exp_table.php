@@ -28,6 +28,7 @@ class CreateWorkExpTable extends Migration
             $table->date('until');
             // $table->string('institution',40);
             $table->integer('institution_id')->unsigned();
+            $table->boolean('fiufie'); // fiufie
             $table->string('observation',500)->nullable();
             $table->timestamps();
         });

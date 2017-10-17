@@ -36,6 +36,7 @@ class CreateContractsTable extends Migration
             $table->integer('employee_id')->unsigned(); // tipo de trabajador
             $table->string('compo',40)->nullable(); // puede tipificarse - aclarar tipos
             $table->boolean('canceled'); // anulado
+            $table->boolean('fiufie'); // fiufie
             $table->string('observation',500)->nullable();
             $table->timestamps();
         });
