@@ -26,6 +26,10 @@ class CreateWorkExpTable extends Migration
             $table->string('condition',10);
             $table->date('since');
             $table->date('until');
+            $table->string('duration',25);
+            $table->string('years',2);
+            $table->string('months',2);
+            $table->string('days',2);
             // $table->string('institution',40);
             $table->integer('institution_id')->unsigned();
             $table->boolean('fiufie'); // fiufie
