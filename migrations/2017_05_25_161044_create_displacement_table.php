@@ -23,7 +23,8 @@ class CreateDisplacementTable extends Migration
             $table->string('exchange_rate',3); // puede tipificarse
             $table->integer('location_origin_id')->unsigned(); // ubicacion origen
             $table->integer('location_destination_id')->unsigned(); // ubicacion destino
-            $table->string('reason_change',100); // motivo de cambio puede tipificarse
+            // $table->string('reason_change',100); // motivo de cambio puede tipificarse
+            $table->integer('motivo_id')->unsigned(); // puede tipificarse -- pe. CPU (tipos de contratos??
             $table->date('since');
             $table->date('until');
             $table->integer('new_position_id')->unsigned(); // tipo de cargo
@@ -37,6 +38,7 @@ class CreateDisplacementTable extends Migration
             $table->foreign('location_origin_id')->references('id')->on('tlocationdata');
             $table->foreign('location_destination_id')->references('id')->on('tlocationdata');
             $table->foreign('new_position_id')->references('id')->on('tpositiondata');
+            $table->foreign('motivo_id')->references('id')->on('tmotivodata');
         });
     }
 
