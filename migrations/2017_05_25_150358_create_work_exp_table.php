@@ -23,7 +23,7 @@ class CreateWorkExpTable extends Migration
             $table->integer('positionheld_id')->unsigned(); // tipo de cargo
             $table->boolean('recognized');
             $table->integer('labor_id')->unsigned(); // tipo de labor
-            $table->string('condition',10);
+            $table->string('condition',100);
             $table->date('since');
             $table->date('until');
             $table->string('duration',25);
