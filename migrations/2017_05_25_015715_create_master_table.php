@@ -17,10 +17,12 @@ class CreateMasterTable extends Migration
             // identificacion personal
             $table->string('codigo', 6)->primary()->unique();
             $table->string('name',35);
-            $table->string('lastname',35);
+            $table->string('lastname1',35);
+            $table->string('lastname2',35);
             $table->integer('lvlstudy_id')->unsigned(); // tipo de profesiones
             $table->integer('profesion_id')->unsigned(); // tipo de profesiones
             $table->integer('ocupacion_id')->unsigned(); // tipo de ocupacion
+            $table->boolean('fthmth')->default(0); // es padre o madre de familia
 
             $table->integer('estamento_id')->nullable()->unsigned(); // tipo de estamento
             $table->integer('location_id')->nullable()->unsigned(); // ubicacion
@@ -29,8 +31,8 @@ class CreateMasterTable extends Migration
             $table->date('fie')->nullable();  // fecha de ingreso al estado
             $table->date('fiu')->nullable();  // fecha de ingreso a la universidad
             $table->integer('employee_id')->nullable()->unsigned(); // tipo de trabajador (figurativo)
-            $table->string('file')->nullable();  // imagen
-            
+            $table->string('imgfile')->nullable();  // imagen
+
             //documentos
             $table->integer('docident_id')->unsigned(); // tipo de documento de identidad
             $table->string('docident_nmb',12); // dni, carnet de extranjeria, pasaporte
@@ -64,7 +66,7 @@ class CreateMasterTable extends Migration
             $table->string('cuspp',12)->nullable(); // codigo cuspp            
             $table->date('since')->nullable();  // desde
             $table->date('until')->nullable();  // hasta
-            
+
             // mas informacion
             $table->string('number_license',10)->nullable(); // numero de licencia
             $table->string('category_license',4)->nullable(); // categoria de licencia
@@ -118,7 +120,7 @@ class CreateMasterTable extends Migration
             $table->foreign('lvlstudy_id')->references('id')->on('tlvlstudydata');
 
         });
-        
+
     }
 
     /**
