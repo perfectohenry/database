@@ -26,11 +26,12 @@ class CreateDesignationsTable extends Migration
             // $table->string('function',15); // funcion pe. f-1, f-2,etc
             $table->integer('operative_unit_id')->unsigned(); // unidad operativa
             $table->date('since');
-            $table->date('until');
+            $table->date('until')->nullable();
             $table->boolean('with_without'); // con o sin resolucion
             $table->boolean('charge_desig'); // encargatura o designacion
             $table->boolean('previous_after'); // anterior o despues
-            $table->boolean('current_doc'); // documentacion vigente si o no
+            $table->boolean('finish'); // finaliza si o no
+            $table->string('doc_finish',20)->nullable();
             $table->string('observation',500)->nullable();
             $table->timestamps();
         });

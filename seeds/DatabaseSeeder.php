@@ -74,6 +74,10 @@ class DatabaseSeeder extends Seeder
         $this->call(HisthdiaTableSeeder::class);
         $this->call(TleavedataTableSeeder::class);
         $this->call(LidataTableSeeder::class);
+        $this->call('HijoTableSeeder');
+        $this->call('AddressTableSeeder');
+        $this->call('EmailaddTableSeeder');
+        $this->call('TelefonoaddTableSeeder');
     }
 }
     

@@ -18,11 +18,9 @@ class CreateHistoryMasterTable extends Migration
             $table->increments('id');
             $table->string('master_code',6);
             $table->string('name',35);
-            $table->string('lastname',35);
-            // $table->string('lvlstudy',40);
+            $table->string('lastname1',35);
+            $table->string('lastname2',35);
             $table->integer('lvlstudy_id')->unsigned(); // tipo de profesiones
-            // $table->string('profession',40);
-            // $table->string('occupation',40);
             $table->integer('profesion_id')->unsigned(); // tipo de profesiones
             $table->integer('ocupacion_id')->unsigned(); // tipo de ocupacion
 
@@ -30,8 +28,10 @@ class CreateHistoryMasterTable extends Migration
             $table->integer('location_id')->nullable()->unsigned(); // ubicacion
             $table->integer('level_id')->nullable()->unsigned(); // nivel
             $table->integer('funcdir_id')->nullable()->unsigned(); // funcion/directiva
+            $table->date('fie')->nullable();  // fecha de ingreso al estado
+            $table->date('fiu')->nullable();  // fecha de ingreso a la universidad
             $table->integer('employee_id')->nullable()->unsigned(); // tipo de trabajador (figurativo)
-            $table->string('file')->nullable();  // imagen
+            $table->string('imgfile')->nullable();  // imagen
             
             //documentos
             $table->integer('docident_id')->unsigned(); // tipo de documento de identidad
