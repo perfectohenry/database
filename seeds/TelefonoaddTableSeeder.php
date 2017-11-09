@@ -71,6 +71,24 @@ class TelefonoaddTableSeeder extends Seeder
                 'created_at' => '2017-11-07 18:47:19',
                 'updated_at' => '2017-11-07 18:47:19',
             ),
+            6 => 
+            array (
+                'id' => 8,
+                'address_id' => 8,
+                'telefono' => '052985487',
+                'tipo' => 'Fijo',
+                'created_at' => '2017-11-08 19:25:37',
+                'updated_at' => '2017-11-08 19:25:37',
+            ),
+            7 => 
+            array (
+                'id' => 9,
+                'address_id' => 8,
+                'telefono' => '052325487',
+                'tipo' => 'Fijo',
+                'created_at' => '2017-11-08 19:25:58',
+                'updated_at' => '2017-11-08 19:25:58',
+            ),
         ));
         
         

@@ -92,6 +92,36 @@ class AddressTableSeeder extends Seeder
                 'created_at' => '2017-11-07 18:47:01',
                 'updated_at' => '2017-11-07 18:47:01',
             ),
+            5 => 
+            array (
+                'id' => 7,
+                'master_code' => 'AA7242',
+                'addres' => 'Dirección de Domicilio 6',
+                'addresp' => 'Dirección Procesal 6',
+                'country_id' => 173,
+                'city' => NULL,
+                'department_id' => 23,
+                'province_id' => 187,
+                'district_id' => 1780,
+                'observation' => NULL,
+                'created_at' => '2017-11-08 15:01:39',
+                'updated_at' => '2017-11-08 15:01:39',
+            ),
+            6 => 
+            array (
+                'id' => 8,
+                'master_code' => 'BC5478',
+                'addres' => 'Dirección de Domicilio 7',
+                'addresp' => 'Dirección Procesal 7',
+                'country_id' => 173,
+                'city' => NULL,
+                'department_id' => 23,
+                'province_id' => 187,
+                'district_id' => 1780,
+                'observation' => NULL,
+                'created_at' => '2017-11-08 19:25:23',
+                'updated_at' => '2017-11-08 19:25:23',
+            ),
         ));
         
         

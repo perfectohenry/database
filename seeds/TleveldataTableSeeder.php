@@ -231,7 +231,7 @@ class TleveldataTableSeeder extends Seeder
                 'activo' => 1,
                 'observation' => 'Auxiliar Dedicación Exclusiva',
                 'created_at' => '2017-07-14 18:29:54',
-                'updated_at' => '0000-00-00 00:00:00',
+                'updated_at' => '2017-07-14 18:29:54',
             ),
             18 => 
             array (
