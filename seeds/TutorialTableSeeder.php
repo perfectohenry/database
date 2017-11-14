@@ -19,7 +19,7 @@ class TutorialTableSeeder extends Seeder
         \DB::table('tutorial')->insert(array (
             0 => 
             array (
-                'id' => 1,
+                // 'id' => 1,
                 'name' => 'Tutorial 1',
                 'category' => 'Tutorial 1',
                 'state' => 'Tutorial 1',
@@ -28,7 +28,7 @@ class TutorialTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => 2,
+                // 'id' => 2,
                 'name' => 'Tutorial 2',
                 'category' => 'Tutorial 2',
                 'state' => 'Tutorial 2',
@@ -37,7 +37,7 @@ class TutorialTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => 3,
+                // 'id' => 3,
                 'name' => 'Tutorial 3',
                 'category' => 'Tutorial 3',
                 'state' => 'Tutorial 3',
@@ -46,7 +46,7 @@ class TutorialTableSeeder extends Seeder
             ),
             3 => 
             array (
-                'id' => 4,
+                // 'id' => 4,
                 'name' => 'Tutorial 4',
                 'category' => 'Tutorial 4',
                 'state' => 'Tutorial 4',
@@ -55,7 +55,7 @@ class TutorialTableSeeder extends Seeder
             ),
             4 => 
             array (
-                'id' => 5,
+                // 'id' => 5,
                 'name' => 'Tutorial 5',
                 'category' => 'Tutorial 5',
                 'state' => 'Tutorial 5',
@@ -64,7 +64,7 @@ class TutorialTableSeeder extends Seeder
             ),
             5 => 
             array (
-                'id' => 6,
+                // 'id' => 6,
                 'name' => 'Tutorial 6',
                 'category' => 'Tutorial 6',
                 'state' => 'Tutorial 6',
@@ -73,7 +73,7 @@ class TutorialTableSeeder extends Seeder
             ),
             6 => 
             array (
-                'id' => 7,
+                // 'id' => 7,
                 'name' => 'Tutorial 7',
                 'category' => 'Tutorial 7',
                 'state' => 'Tutorial 7',
@@ -82,7 +82,7 @@ class TutorialTableSeeder extends Seeder
             ),
             7 => 
             array (
-                'id' => 8,
+                // 'id' => 8,
                 'name' => 'Tutorial 8',
                 'category' => 'Tutorial 8',
                 'state' => 'Tutorial 8',
@@ -91,7 +91,7 @@ class TutorialTableSeeder extends Seeder
             ),
             8 => 
             array (
-                'id' => 9,
+                // 'id' => 9,
                 'name' => 'Tutorial 9',
                 'category' => 'Tutorial 9',
                 'state' => 'Tutorial 9',
@@ -100,7 +100,7 @@ class TutorialTableSeeder extends Seeder
             ),
             9 => 
             array (
-                'id' => 10,
+                // 'id' => 10,
                 'name' => 'Tutorial 10',
                 'category' => 'Tutorial 10',
                 'state' => 'Tutorial 10',
@@ -109,7 +109,7 @@ class TutorialTableSeeder extends Seeder
             ),
             10 => 
             array (
-                'id' => 11,
+                // 'id' => 11,
                 'name' => 'Tutorial 11',
                 'category' => 'Tutorial 11',
                 'state' => 'Tutorial 11',
@@ -118,7 +118,7 @@ class TutorialTableSeeder extends Seeder
             ),
             11 => 
             array (
-                'id' => 12,
+                // 'id' => 12,
                 'name' => 'Tutorial 12',
                 'category' => 'Tutorial 12',
                 'state' => 'Tutorial 12',
@@ -127,7 +127,7 @@ class TutorialTableSeeder extends Seeder
             ),
             12 => 
             array (
-                'id' => 13,
+                // 'id' => 13,
                 'name' => 'Tutorial 13',
                 'category' => 'Tutorial 13',
                 'state' => 'Tutorial 13',
@@ -136,7 +136,7 @@ class TutorialTableSeeder extends Seeder
             ),
             13 => 
             array (
-                'id' => 14,
+                // 'id' => 14,
                 'name' => 'Tutorial 14',
                 'category' => 'Tutorial 14',
                 'state' => 'Tutorial 14',
@@ -145,7 +145,7 @@ class TutorialTableSeeder extends Seeder
             ),
             14 => 
             array (
-                'id' => 15,
+                // 'id' => 15,
                 'name' => 'Tutorial 15',
                 'category' => 'Tutorial 15',
                 'state' => 'Tutorial 15',

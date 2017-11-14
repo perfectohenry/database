@@ -19,7 +19,7 @@ class TdocumentdataTableSeeder extends Seeder
         \DB::table('tdocumentdata')->insert(array (
             0 => 
             array (
-                'id' => 1,
+                // 'id' => 1,
                 'initials' => 'A.CU.',
                 'document' => 'Acuerdo de Consejo Universitario',
                 'observation' => 'Acuerdo de Consejo Universitario',
@@ -28,7 +28,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => 2,
+                // 'id' => 2,
                 'initials' => 'Acta',
                 'document' => 'Acta',
                 'observation' => 'Acta',
@@ -37,7 +37,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => 3,
+                // 'id' => 3,
                 'initials' => 'Acta D.',
                 'document' => 'Acta de Defuncion',
                 'observation' => 'Acta de Defuncion',
@@ -46,7 +46,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             3 => 
             array (
-                'id' => 4,
+                // 'id' => 4,
                 'initials' => 'Acta N.',
                 'document' => 'Acta de Nacimiento',
                 'observation' => 'Acta de Nacimiento',
@@ -55,7 +55,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             4 => 
             array (
-                'id' => 5,
+                // 'id' => 5,
                 'initials' => 'Carta',
                 'document' => 'Carta',
                 'observation' => 'Carta',
@@ -64,7 +64,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             5 => 
             array (
-                'id' => 6,
+                // 'id' => 6,
                 'initials' => 'Certif.',
                 'document' => 'Certificado',
                 'observation' => 'Certificado',
@@ -73,7 +73,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             6 => 
             array (
-                'id' => 7,
+                // 'id' => 7,
                 'initials' => 'Const.',
                 'document' => 'Constancia',
                 'observation' => 'Constancia',
@@ -82,7 +82,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             7 => 
             array (
-                'id' => 8,
+                // 'id' => 8,
                 'initials' => 'Diploma',
                 'document' => 'Diploma',
                 'observation' => 'Diploma',
@@ -91,7 +91,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             8 => 
             array (
-                'id' => 9,
+                // 'id' => 9,
                 'initials' => 'Inf.',
                 'document' => 'Informe',
                 'observation' => 'Informe',
@@ -100,7 +100,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             9 => 
             array (
-                'id' => 10,
+                // 'id' => 10,
                 'initials' => 'Mm.',
                 'document' => 'Memorandum',
                 'observation' => 'Memorandum',
@@ -109,7 +109,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             10 => 
             array (
-                'id' => 11,
+                // 'id' => 11,
                 'initials' => 'Mm.Cir.',
                 'document' => 'Memorandum Circular',
                 'observation' => 'Memorandum Circular',
@@ -118,7 +118,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             11 => 
             array (
-                'id' => 12,
+                // 'id' => 12,
                 'initials' => 'Of.',
                 'document' => 'Oficio',
                 'observation' => 'Oficio',
@@ -127,7 +127,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             12 => 
             array (
-                'id' => 13,
+                // 'id' => 13,
                 'initials' => 'Of.Cir',
                 'document' => 'Oficio Circular',
                 'observation' => 'Oficio Circular',
@@ -136,7 +136,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             13 => 
             array (
-                'id' => 14,
+                // 'id' => 14,
                 'initials' => 'Otro',
                 'document' => 'Otro Documento',
                 'observation' => 'Otro Documento',
@@ -145,7 +145,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             14 => 
             array (
-                'id' => 15,
+                // 'id' => 15,
                 'initials' => 'Pap',
                 'document' => 'Papeleta de Permiso',
                 'observation' => 'Papeleta de Permiso',
@@ -154,7 +154,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             15 => 
             array (
-                'id' => 16,
+                // 'id' => 16,
                 'initials' => 'Public.',
                 'document' => 'Publicación - Texto',
                 'observation' => 'Publicación - Texto',
@@ -163,7 +163,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             16 => 
             array (
-                'id' => 17,
+                // 'id' => 17,
                 'initials' => 'R.',
                 'document' => 'Resolución',
                 'observation' => 'Resolución',
@@ -172,7 +172,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             17 => 
             array (
-                'id' => 18,
+                // 'id' => 18,
                 'initials' => 'R.AU.',
                 'document' => 'Resolución de Asamblea Universit.',
                 'observation' => 'Resolución de Asamblea Universit.',
@@ -181,7 +181,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             18 => 
             array (
-                'id' => 19,
+                // 'id' => 19,
                 'initials' => 'R.CF.',
                 'document' => 'Resolución de Consejo de Facultad',
                 'observation' => 'Resolución de Consejo de Facultad',
@@ -190,7 +190,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             19 => 
             array (
-                'id' => 20,
+                // 'id' => 20,
                 'initials' => 'R.CU.',
                 'document' => 'Resolución de Consejo Universitario',
                 'observation' => 'Resolución de Consejo Universitario',
@@ -199,7 +199,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             20 => 
             array (
-                'id' => 21,
+                // 'id' => 21,
                 'initials' => 'R.D.',
                 'document' => 'Resolución Directoral',
                 'observation' => 'Resolución Directoral',
@@ -208,7 +208,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             21 => 
             array (
-                'id' => 22,
+                // 'id' => 22,
                 'initials' => 'R.F.',
                 'document' => 'Resolución de Facultad',
                 'observation' => 'Resolución de Facultad',
@@ -217,7 +217,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             22 => 
             array (
-                'id' => 23,
+                // 'id' => 23,
                 'initials' => 'R.J.',
                 'document' => 'Resolución Jefatural',
                 'observation' => 'Resolución Jefatural',
@@ -226,7 +226,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             23 => 
             array (
-                'id' => 24,
+                // 'id' => 24,
                 'initials' => 'R.R.',
                 'document' => 'Resolución Rectoral',
                 'observation' => 'Resolución Rectoral',
@@ -235,7 +235,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             24 => 
             array (
-                'id' => 25,
+                // 'id' => 25,
                 'initials' => 'R.VIAC.',
                 'document' => 'Resolución Vicerrectoral Académico',
                 'observation' => 'Resolución Vicerrectoral Académico',
@@ -244,7 +244,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             25 => 
             array (
-                'id' => 26,
+                // 'id' => 26,
                 'initials' => 'R.VIAD.',
                 'document' => 'Resolución Vicerrectoral Administ.',
                 'observation' => 'Resolución Vicerrectoral Administ.',
@@ -253,7 +253,7 @@ class TdocumentdataTableSeeder extends Seeder
             ),
             26 => 
             array (
-                'id' => 27,
+                // 'id' => 27,
                 'initials' => 'Solicit.',
                 'document' => 'Solicitud',
                 'observation' => 'Solicitud',

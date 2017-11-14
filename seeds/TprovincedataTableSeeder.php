@@ -19,7 +19,7 @@ class TprovincedataTableSeeder extends Seeder
         \DB::table('tprovincedata')->insert(array (
             0 => 
             array (
-                'id' => 1,
+                // 'id' => 1,
                 'department_id' => 1,
                 'province' => 'CHACHAPOYAS',
                 'created_at' => NULL,
@@ -27,7 +27,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => 2,
+                // 'id' => 2,
                 'department_id' => 1,
                 'province' => 'BAGUA',
                 'created_at' => NULL,
@@ -35,7 +35,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => 3,
+                // 'id' => 3,
                 'department_id' => 1,
                 'province' => 'BONGARA',
                 'created_at' => NULL,
@@ -43,7 +43,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             3 => 
             array (
-                'id' => 4,
+                // 'id' => 4,
                 'department_id' => 1,
                 'province' => 'CONDORCANQUI',
                 'created_at' => NULL,
@@ -51,7 +51,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             4 => 
             array (
-                'id' => 5,
+                // 'id' => 5,
                 'department_id' => 1,
                 'province' => 'LUYA',
                 'created_at' => NULL,
@@ -59,7 +59,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             5 => 
             array (
-                'id' => 6,
+                // 'id' => 6,
                 'department_id' => 1,
                 'province' => 'RODRIGUEZ DE MENDOZA',
                 'created_at' => NULL,
@@ -67,7 +67,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             6 => 
             array (
-                'id' => 7,
+                // 'id' => 7,
                 'department_id' => 1,
                 'province' => 'UTCUBAMBA',
                 'created_at' => NULL,
@@ -75,7 +75,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             7 => 
             array (
-                'id' => 8,
+                // 'id' => 8,
                 'department_id' => 2,
                 'province' => 'HUARAZ',
                 'created_at' => NULL,
@@ -83,7 +83,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             8 => 
             array (
-                'id' => 9,
+                // 'id' => 9,
                 'department_id' => 2,
                 'province' => 'AIJA',
                 'created_at' => NULL,
@@ -91,7 +91,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             9 => 
             array (
-                'id' => 10,
+                // 'id' => 10,
                 'department_id' => 2,
                 'province' => 'ANTONIO RAYMONDI',
                 'created_at' => NULL,
@@ -99,7 +99,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             10 => 
             array (
-                'id' => 11,
+                // 'id' => 11,
                 'department_id' => 2,
                 'province' => 'ASUNCION',
                 'created_at' => NULL,
@@ -107,7 +107,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             11 => 
             array (
-                'id' => 12,
+                // 'id' => 12,
                 'department_id' => 2,
                 'province' => 'BOLOGNESI',
                 'created_at' => NULL,
@@ -115,7 +115,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             12 => 
             array (
-                'id' => 13,
+                // 'id' => 13,
                 'department_id' => 2,
                 'province' => 'CARHUAZ',
                 'created_at' => NULL,
@@ -123,7 +123,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             13 => 
             array (
-                'id' => 14,
+                // 'id' => 14,
                 'department_id' => 2,
                 'province' => 'CARLOS FERMIN FITZCARRALD',
                 'created_at' => NULL,
@@ -131,7 +131,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             14 => 
             array (
-                'id' => 15,
+                // 'id' => 15,
                 'department_id' => 2,
                 'province' => 'CASMA',
                 'created_at' => NULL,
@@ -139,7 +139,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             15 => 
             array (
-                'id' => 16,
+                // 'id' => 16,
                 'department_id' => 2,
                 'province' => 'CORONGO',
                 'created_at' => NULL,
@@ -147,7 +147,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             16 => 
             array (
-                'id' => 17,
+                // 'id' => 17,
                 'department_id' => 2,
                 'province' => 'HUARI',
                 'created_at' => NULL,
@@ -155,7 +155,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             17 => 
             array (
-                'id' => 18,
+                // 'id' => 18,
                 'department_id' => 2,
                 'province' => 'HUARMEY',
                 'created_at' => NULL,
@@ -163,7 +163,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             18 => 
             array (
-                'id' => 19,
+                // 'id' => 19,
                 'department_id' => 2,
                 'province' => 'HUAYLAS',
                 'created_at' => NULL,
@@ -171,7 +171,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             19 => 
             array (
-                'id' => 20,
+                // 'id' => 20,
                 'department_id' => 2,
                 'province' => 'MARISCAL LUZURIAGA',
                 'created_at' => NULL,
@@ -179,7 +179,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             20 => 
             array (
-                'id' => 21,
+                // 'id' => 21,
                 'department_id' => 2,
                 'province' => 'OCROS',
                 'created_at' => NULL,
@@ -187,7 +187,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             21 => 
             array (
-                'id' => 22,
+                // 'id' => 22,
                 'department_id' => 2,
                 'province' => 'PALLASCA',
                 'created_at' => NULL,
@@ -195,7 +195,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             22 => 
             array (
-                'id' => 23,
+                // 'id' => 23,
                 'department_id' => 2,
                 'province' => 'POMABAMBA',
                 'created_at' => NULL,
@@ -203,7 +203,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             23 => 
             array (
-                'id' => 24,
+                // 'id' => 24,
                 'department_id' => 2,
                 'province' => 'RECUAY',
                 'created_at' => NULL,
@@ -211,7 +211,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             24 => 
             array (
-                'id' => 25,
+                // 'id' => 25,
                 'department_id' => 2,
                 'province' => 'SANTA',
                 'created_at' => NULL,
@@ -219,7 +219,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             25 => 
             array (
-                'id' => 26,
+                // 'id' => 26,
                 'department_id' => 2,
                 'province' => 'SIHUAS',
                 'created_at' => NULL,
@@ -227,7 +227,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             26 => 
             array (
-                'id' => 27,
+                // 'id' => 27,
                 'department_id' => 2,
                 'province' => 'YUNGAY',
                 'created_at' => NULL,
@@ -235,7 +235,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             27 => 
             array (
-                'id' => 28,
+                // 'id' => 28,
                 'department_id' => 3,
                 'province' => 'ABANCAY',
                 'created_at' => NULL,
@@ -243,7 +243,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             28 => 
             array (
-                'id' => 29,
+                // 'id' => 29,
                 'department_id' => 3,
                 'province' => 'ANDAHUAYLAS',
                 'created_at' => NULL,
@@ -251,7 +251,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             29 => 
             array (
-                'id' => 30,
+                // 'id' => 30,
                 'department_id' => 3,
                 'province' => 'ANTABAMBA',
                 'created_at' => NULL,
@@ -259,7 +259,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             30 => 
             array (
-                'id' => 31,
+                // 'id' => 31,
                 'department_id' => 3,
                 'province' => 'AYMARAES',
                 'created_at' => NULL,
@@ -267,7 +267,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             31 => 
             array (
-                'id' => 32,
+                // 'id' => 32,
                 'department_id' => 3,
                 'province' => 'COTABAMBAS',
                 'created_at' => NULL,
@@ -275,7 +275,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             32 => 
             array (
-                'id' => 33,
+                // 'id' => 33,
                 'department_id' => 3,
                 'province' => 'CHINCHEROS',
                 'created_at' => NULL,
@@ -283,7 +283,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             33 => 
             array (
-                'id' => 34,
+                // 'id' => 34,
                 'department_id' => 3,
                 'province' => 'GRAU',
                 'created_at' => NULL,
@@ -291,7 +291,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             34 => 
             array (
-                'id' => 35,
+                // 'id' => 35,
                 'department_id' => 4,
                 'province' => 'AREQUIPA',
                 'created_at' => NULL,
@@ -299,7 +299,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             35 => 
             array (
-                'id' => 36,
+                // 'id' => 36,
                 'department_id' => 4,
                 'province' => 'CAMANA',
                 'created_at' => NULL,
@@ -307,7 +307,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             36 => 
             array (
-                'id' => 37,
+                // 'id' => 37,
                 'department_id' => 4,
                 'province' => 'CARAVELI',
                 'created_at' => NULL,
@@ -315,7 +315,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             37 => 
             array (
-                'id' => 38,
+                // 'id' => 38,
                 'department_id' => 4,
                 'province' => 'CASTILLA',
                 'created_at' => NULL,
@@ -323,7 +323,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             38 => 
             array (
-                'id' => 39,
+                // 'id' => 39,
                 'department_id' => 4,
                 'province' => 'CAYLLOMA',
                 'created_at' => NULL,
@@ -331,7 +331,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             39 => 
             array (
-                'id' => 40,
+                // 'id' => 40,
                 'department_id' => 4,
                 'province' => 'CONDESUYOS',
                 'created_at' => NULL,
@@ -339,7 +339,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             40 => 
             array (
-                'id' => 41,
+                // 'id' => 41,
                 'department_id' => 4,
                 'province' => 'ISLAY',
                 'created_at' => NULL,
@@ -347,7 +347,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             41 => 
             array (
-                'id' => 42,
+                // 'id' => 42,
                 'department_id' => 4,
                 'province' => 'LA UNION',
                 'created_at' => NULL,
@@ -355,7 +355,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             42 => 
             array (
-                'id' => 43,
+                // 'id' => 43,
                 'department_id' => 5,
                 'province' => 'HUAMANGA',
                 'created_at' => NULL,
@@ -363,7 +363,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             43 => 
             array (
-                'id' => 44,
+                // 'id' => 44,
                 'department_id' => 5,
                 'province' => 'CANGALLO',
                 'created_at' => NULL,
@@ -371,7 +371,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             44 => 
             array (
-                'id' => 45,
+                // 'id' => 45,
                 'department_id' => 5,
                 'province' => 'HUANCA SANCOS',
                 'created_at' => NULL,
@@ -379,7 +379,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             45 => 
             array (
-                'id' => 46,
+                // 'id' => 46,
                 'department_id' => 5,
                 'province' => 'HUANTA',
                 'created_at' => NULL,
@@ -387,7 +387,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             46 => 
             array (
-                'id' => 47,
+                // 'id' => 47,
                 'department_id' => 5,
                 'province' => 'LA MAR',
                 'created_at' => NULL,
@@ -395,7 +395,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             47 => 
             array (
-                'id' => 48,
+                // 'id' => 48,
                 'department_id' => 5,
                 'province' => 'LUCANAS',
                 'created_at' => NULL,
@@ -403,7 +403,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             48 => 
             array (
-                'id' => 49,
+                // 'id' => 49,
                 'department_id' => 5,
                 'province' => 'PARINACOCHAS',
                 'created_at' => NULL,
@@ -411,7 +411,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             49 => 
             array (
-                'id' => 50,
+                // 'id' => 50,
                 'department_id' => 5,
                 'province' => 'PAUCAR DEL SARA SARA',
                 'created_at' => NULL,
@@ -419,7 +419,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             50 => 
             array (
-                'id' => 51,
+                // 'id' => 51,
                 'department_id' => 5,
                 'province' => 'SUCRE',
                 'created_at' => NULL,
@@ -427,7 +427,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             51 => 
             array (
-                'id' => 52,
+                // 'id' => 52,
                 'department_id' => 5,
                 'province' => 'VICTOR FAJARDO',
                 'created_at' => NULL,
@@ -435,7 +435,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             52 => 
             array (
-                'id' => 53,
+                // 'id' => 53,
                 'department_id' => 5,
                 'province' => 'VICTOR FAFARDO',
                 'created_at' => NULL,
@@ -443,7 +443,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             53 => 
             array (
-                'id' => 54,
+                // 'id' => 54,
                 'department_id' => 5,
                 'province' => 'VILCAS HUAMAN',
                 'created_at' => NULL,
@@ -451,7 +451,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             54 => 
             array (
-                'id' => 55,
+                // 'id' => 55,
                 'department_id' => 6,
                 'province' => 'CAJAMARCA',
                 'created_at' => NULL,
@@ -459,7 +459,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             55 => 
             array (
-                'id' => 56,
+                // 'id' => 56,
                 'department_id' => 6,
                 'province' => 'CAJABAMBA',
                 'created_at' => NULL,
@@ -467,7 +467,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             56 => 
             array (
-                'id' => 57,
+                // 'id' => 57,
                 'department_id' => 6,
                 'province' => 'CELENDIN',
                 'created_at' => NULL,
@@ -475,7 +475,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             57 => 
             array (
-                'id' => 58,
+                // 'id' => 58,
                 'department_id' => 6,
                 'province' => 'CHOTA',
                 'created_at' => NULL,
@@ -483,7 +483,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             58 => 
             array (
-                'id' => 59,
+                // 'id' => 59,
                 'department_id' => 6,
                 'province' => 'CONTUMAZA',
                 'created_at' => NULL,
@@ -491,7 +491,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             59 => 
             array (
-                'id' => 60,
+                // 'id' => 60,
                 'department_id' => 6,
                 'province' => 'CUTERVO',
                 'created_at' => NULL,
@@ -499,7 +499,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             60 => 
             array (
-                'id' => 61,
+                // 'id' => 61,
                 'department_id' => 6,
                 'province' => 'HUALGAYOC',
                 'created_at' => NULL,
@@ -507,7 +507,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             61 => 
             array (
-                'id' => 62,
+                // 'id' => 62,
                 'department_id' => 6,
                 'province' => 'JAEN',
                 'created_at' => NULL,
@@ -515,7 +515,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             62 => 
             array (
-                'id' => 63,
+                // 'id' => 63,
                 'department_id' => 6,
                 'province' => 'SAN IGNACIO',
                 'created_at' => NULL,
@@ -523,7 +523,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             63 => 
             array (
-                'id' => 64,
+                // 'id' => 64,
                 'department_id' => 6,
                 'province' => 'SAN MARCOS',
                 'created_at' => NULL,
@@ -531,7 +531,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             64 => 
             array (
-                'id' => 65,
+                // 'id' => 65,
                 'department_id' => 6,
                 'province' => 'SAN MIGUEL',
                 'created_at' => NULL,
@@ -539,7 +539,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             65 => 
             array (
-                'id' => 66,
+                // 'id' => 66,
                 'department_id' => 6,
                 'province' => 'SAN PABLO',
                 'created_at' => NULL,
@@ -547,7 +547,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             66 => 
             array (
-                'id' => 67,
+                // 'id' => 67,
                 'department_id' => 6,
                 'province' => 'SANTA CRUZ',
                 'created_at' => NULL,
@@ -555,7 +555,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             67 => 
             array (
-                'id' => 68,
+                // 'id' => 68,
                 'department_id' => 7,
                 'province' => 'CALLAO',
                 'created_at' => NULL,
@@ -563,7 +563,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             68 => 
             array (
-                'id' => 69,
+                // 'id' => 69,
                 'department_id' => 8,
                 'province' => 'CUSCO',
                 'created_at' => NULL,
@@ -571,7 +571,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             69 => 
             array (
-                'id' => 70,
+                // 'id' => 70,
                 'department_id' => 8,
                 'province' => 'ACOMAYO',
                 'created_at' => NULL,
@@ -579,7 +579,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             70 => 
             array (
-                'id' => 71,
+                // 'id' => 71,
                 'department_id' => 8,
                 'province' => 'ANTA',
                 'created_at' => NULL,
@@ -587,7 +587,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             71 => 
             array (
-                'id' => 72,
+                // 'id' => 72,
                 'department_id' => 8,
                 'province' => 'CALCA',
                 'created_at' => NULL,
@@ -595,7 +595,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             72 => 
             array (
-                'id' => 73,
+                // 'id' => 73,
                 'department_id' => 8,
                 'province' => 'CANAS',
                 'created_at' => NULL,
@@ -603,7 +603,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             73 => 
             array (
-                'id' => 74,
+                // 'id' => 74,
                 'department_id' => 8,
                 'province' => 'CANCHIS',
                 'created_at' => NULL,
@@ -611,7 +611,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             74 => 
             array (
-                'id' => 75,
+                // 'id' => 75,
                 'department_id' => 8,
                 'province' => 'CHUMBIVILCAS',
                 'created_at' => NULL,
@@ -619,7 +619,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             75 => 
             array (
-                'id' => 76,
+                // 'id' => 76,
                 'department_id' => 8,
                 'province' => 'ESPINAR',
                 'created_at' => NULL,
@@ -627,7 +627,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             76 => 
             array (
-                'id' => 77,
+                // 'id' => 77,
                 'department_id' => 8,
                 'province' => 'LA CONVENCION',
                 'created_at' => NULL,
@@ -635,7 +635,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             77 => 
             array (
-                'id' => 78,
+                // 'id' => 78,
                 'department_id' => 8,
                 'province' => 'PARURO',
                 'created_at' => NULL,
@@ -643,7 +643,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             78 => 
             array (
-                'id' => 79,
+                // 'id' => 79,
                 'department_id' => 8,
                 'province' => 'PAUCARTAMBO',
                 'created_at' => NULL,
@@ -651,7 +651,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             79 => 
             array (
-                'id' => 80,
+                // 'id' => 80,
                 'department_id' => 8,
                 'province' => 'QUISPICANCHI',
                 'created_at' => NULL,
@@ -659,7 +659,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             80 => 
             array (
-                'id' => 81,
+                // 'id' => 81,
                 'department_id' => 8,
                 'province' => 'URUBAMBA',
                 'created_at' => NULL,
@@ -667,7 +667,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             81 => 
             array (
-                'id' => 82,
+                // 'id' => 82,
                 'department_id' => 9,
                 'province' => 'HUANCAVELICA',
                 'created_at' => NULL,
@@ -675,7 +675,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             82 => 
             array (
-                'id' => 83,
+                // 'id' => 83,
                 'department_id' => 9,
                 'province' => 'ACOBAMBA',
                 'created_at' => NULL,
@@ -683,7 +683,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             83 => 
             array (
-                'id' => 84,
+                // 'id' => 84,
                 'department_id' => 9,
                 'province' => 'ANGARAES',
                 'created_at' => NULL,
@@ -691,7 +691,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             84 => 
             array (
-                'id' => 85,
+                // 'id' => 85,
                 'department_id' => 9,
                 'province' => 'CASTROVIRREYNA',
                 'created_at' => NULL,
@@ -699,7 +699,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             85 => 
             array (
-                'id' => 86,
+                // 'id' => 86,
                 'department_id' => 9,
                 'province' => 'CHURCAMPA',
                 'created_at' => NULL,
@@ -707,7 +707,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             86 => 
             array (
-                'id' => 87,
+                // 'id' => 87,
                 'department_id' => 9,
                 'province' => 'HUAYTARA',
                 'created_at' => NULL,
@@ -715,7 +715,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             87 => 
             array (
-                'id' => 88,
+                // 'id' => 88,
                 'department_id' => 9,
                 'province' => 'TAYACAJA',
                 'created_at' => NULL,
@@ -723,7 +723,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             88 => 
             array (
-                'id' => 89,
+                // 'id' => 89,
                 'department_id' => 10,
                 'province' => 'HUANUCO',
                 'created_at' => NULL,
@@ -731,7 +731,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             89 => 
             array (
-                'id' => 90,
+                // 'id' => 90,
                 'department_id' => 10,
                 'province' => 'AMBO',
                 'created_at' => NULL,
@@ -739,7 +739,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             90 => 
             array (
-                'id' => 91,
+                // 'id' => 91,
                 'department_id' => 10,
                 'province' => 'DOS DE MAYO',
                 'created_at' => NULL,
@@ -747,7 +747,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             91 => 
             array (
-                'id' => 92,
+                // 'id' => 92,
                 'department_id' => 10,
                 'province' => 'HUACAYBAMBA',
                 'created_at' => NULL,
@@ -755,7 +755,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             92 => 
             array (
-                'id' => 93,
+                // 'id' => 93,
                 'department_id' => 10,
                 'province' => 'HUAMALIES',
                 'created_at' => NULL,
@@ -763,7 +763,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             93 => 
             array (
-                'id' => 94,
+                // 'id' => 94,
                 'department_id' => 10,
                 'province' => 'LEONCIO PRADO',
                 'created_at' => NULL,
@@ -771,7 +771,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             94 => 
             array (
-                'id' => 95,
+                // 'id' => 95,
                 'department_id' => 10,
                 'province' => 'MARAÑON',
                 'created_at' => NULL,
@@ -779,7 +779,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             95 => 
             array (
-                'id' => 96,
+                // 'id' => 96,
                 'department_id' => 10,
                 'province' => 'PACHITEA',
                 'created_at' => NULL,
@@ -787,7 +787,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             96 => 
             array (
-                'id' => 97,
+                // 'id' => 97,
                 'department_id' => 10,
                 'province' => 'PUERTO INCA',
                 'created_at' => NULL,
@@ -795,7 +795,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             97 => 
             array (
-                'id' => 98,
+                // 'id' => 98,
                 'department_id' => 10,
                 'province' => 'LAURICOCHA',
                 'created_at' => NULL,
@@ -803,7 +803,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             98 => 
             array (
-                'id' => 99,
+                // 'id' => 99,
                 'department_id' => 10,
                 'province' => 'YAROWILCA',
                 'created_at' => NULL,
@@ -811,7 +811,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             99 => 
             array (
-                'id' => 100,
+                // 'id' => 100,
                 'department_id' => 11,
                 'province' => 'ICA',
                 'created_at' => NULL,
@@ -819,7 +819,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             100 => 
             array (
-                'id' => 101,
+                // 'id' => 101,
                 'department_id' => 11,
                 'province' => 'CHINCHA',
                 'created_at' => NULL,
@@ -827,7 +827,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             101 => 
             array (
-                'id' => 102,
+                // 'id' => 102,
                 'department_id' => 11,
                 'province' => 'NAZCA',
                 'created_at' => NULL,
@@ -835,7 +835,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             102 => 
             array (
-                'id' => 103,
+                // 'id' => 103,
                 'department_id' => 11,
                 'province' => 'PALPA',
                 'created_at' => NULL,
@@ -843,7 +843,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             103 => 
             array (
-                'id' => 104,
+                // 'id' => 104,
                 'department_id' => 11,
                 'province' => 'PISCO',
                 'created_at' => NULL,
@@ -851,7 +851,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             104 => 
             array (
-                'id' => 105,
+                // 'id' => 105,
                 'department_id' => 12,
                 'province' => 'HUANCAYO',
                 'created_at' => NULL,
@@ -859,7 +859,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             105 => 
             array (
-                'id' => 106,
+                // 'id' => 106,
                 'department_id' => 12,
                 'province' => 'CONCEPCION',
                 'created_at' => NULL,
@@ -867,7 +867,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             106 => 
             array (
-                'id' => 107,
+                // 'id' => 107,
                 'department_id' => 12,
                 'province' => 'CHANCHAMAYO',
                 'created_at' => NULL,
@@ -875,7 +875,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             107 => 
             array (
-                'id' => 108,
+                // 'id' => 108,
                 'department_id' => 12,
                 'province' => 'JAUJA',
                 'created_at' => NULL,
@@ -883,7 +883,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             108 => 
             array (
-                'id' => 109,
+                // 'id' => 109,
                 'department_id' => 12,
                 'province' => 'JUNIN',
                 'created_at' => NULL,
@@ -891,7 +891,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             109 => 
             array (
-                'id' => 110,
+                // 'id' => 110,
                 'department_id' => 12,
                 'province' => 'SATIPO',
                 'created_at' => NULL,
@@ -899,7 +899,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             110 => 
             array (
-                'id' => 111,
+                // 'id' => 111,
                 'department_id' => 12,
                 'province' => 'TARMA',
                 'created_at' => NULL,
@@ -907,7 +907,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             111 => 
             array (
-                'id' => 112,
+                // 'id' => 112,
                 'department_id' => 12,
                 'province' => 'YAULI',
                 'created_at' => NULL,
@@ -915,7 +915,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             112 => 
             array (
-                'id' => 113,
+                // 'id' => 113,
                 'department_id' => 12,
                 'province' => 'CHUPACA',
                 'created_at' => NULL,
@@ -923,7 +923,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             113 => 
             array (
-                'id' => 114,
+                // 'id' => 114,
                 'department_id' => 13,
                 'province' => 'TRUJILLO',
                 'created_at' => NULL,
@@ -931,7 +931,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             114 => 
             array (
-                'id' => 115,
+                // 'id' => 115,
                 'department_id' => 13,
                 'province' => 'ASCOPE',
                 'created_at' => NULL,
@@ -939,7 +939,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             115 => 
             array (
-                'id' => 116,
+                // 'id' => 116,
                 'department_id' => 13,
                 'province' => 'BOLIVAR',
                 'created_at' => NULL,
@@ -947,7 +947,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             116 => 
             array (
-                'id' => 117,
+                // 'id' => 117,
                 'department_id' => 13,
                 'province' => 'CHEPEN',
                 'created_at' => NULL,
@@ -955,7 +955,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             117 => 
             array (
-                'id' => 118,
+                // 'id' => 118,
                 'department_id' => 13,
                 'province' => 'JULCAN',
                 'created_at' => NULL,
@@ -963,7 +963,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             118 => 
             array (
-                'id' => 119,
+                // 'id' => 119,
                 'department_id' => 13,
                 'province' => 'OTUZCO',
                 'created_at' => NULL,
@@ -971,7 +971,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             119 => 
             array (
-                'id' => 120,
+                // 'id' => 120,
                 'department_id' => 13,
                 'province' => 'PACASMAYO',
                 'created_at' => NULL,
@@ -979,7 +979,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             120 => 
             array (
-                'id' => 121,
+                // 'id' => 121,
                 'department_id' => 13,
                 'province' => 'PATAZ',
                 'created_at' => NULL,
@@ -987,7 +987,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             121 => 
             array (
-                'id' => 122,
+                // 'id' => 122,
                 'department_id' => 13,
                 'province' => 'SANCHEZ CARRION',
                 'created_at' => NULL,
@@ -995,7 +995,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             122 => 
             array (
-                'id' => 123,
+                // 'id' => 123,
                 'department_id' => 13,
                 'province' => 'SANTIAGO DE CHUCO',
                 'created_at' => NULL,
@@ -1003,7 +1003,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             123 => 
             array (
-                'id' => 124,
+                // 'id' => 124,
                 'department_id' => 13,
                 'province' => 'GRAN CHIMU',
                 'created_at' => NULL,
@@ -1011,7 +1011,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             124 => 
             array (
-                'id' => 125,
+                // 'id' => 125,
                 'department_id' => 13,
                 'province' => 'VIRU',
                 'created_at' => NULL,
@@ -1019,7 +1019,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             125 => 
             array (
-                'id' => 126,
+                // 'id' => 126,
                 'department_id' => 14,
                 'province' => 'CHICLAYO',
                 'created_at' => NULL,
@@ -1027,7 +1027,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             126 => 
             array (
-                'id' => 127,
+                // 'id' => 127,
                 'department_id' => 14,
                 'province' => 'FERREÑAFE',
                 'created_at' => NULL,
@@ -1035,7 +1035,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             127 => 
             array (
-                'id' => 128,
+                // 'id' => 128,
                 'department_id' => 14,
                 'province' => 'LAMBAYEQUE',
                 'created_at' => NULL,
@@ -1043,7 +1043,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             128 => 
             array (
-                'id' => 129,
+                // 'id' => 129,
                 'department_id' => 15,
                 'province' => 'LIMA',
                 'created_at' => NULL,
@@ -1051,7 +1051,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             129 => 
             array (
-                'id' => 130,
+                // 'id' => 130,
                 'department_id' => 15,
                 'province' => 'BARRANCA',
                 'created_at' => NULL,
@@ -1059,7 +1059,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             130 => 
             array (
-                'id' => 131,
+                // 'id' => 131,
                 'department_id' => 15,
                 'province' => 'CAJATAMBO',
                 'created_at' => NULL,
@@ -1067,7 +1067,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             131 => 
             array (
-                'id' => 132,
+                // 'id' => 132,
                 'department_id' => 15,
                 'province' => 'CANTA',
                 'created_at' => NULL,
@@ -1075,7 +1075,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             132 => 
             array (
-                'id' => 133,
+                // 'id' => 133,
                 'department_id' => 15,
                 'province' => 'CAÑETE',
                 'created_at' => NULL,
@@ -1083,7 +1083,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             133 => 
             array (
-                'id' => 134,
+                // 'id' => 134,
                 'department_id' => 15,
                 'province' => 'HUARAL',
                 'created_at' => NULL,
@@ -1091,7 +1091,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             134 => 
             array (
-                'id' => 135,
+                // 'id' => 135,
                 'department_id' => 15,
                 'province' => 'HUAROCHIRI',
                 'created_at' => NULL,
@@ -1099,7 +1099,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             135 => 
             array (
-                'id' => 136,
+                // 'id' => 136,
                 'department_id' => 15,
                 'province' => 'HUAURA',
                 'created_at' => NULL,
@@ -1107,7 +1107,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             136 => 
             array (
-                'id' => 137,
+                // 'id' => 137,
                 'department_id' => 15,
                 'province' => 'OYON',
                 'created_at' => NULL,
@@ -1115,7 +1115,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             137 => 
             array (
-                'id' => 138,
+                // 'id' => 138,
                 'department_id' => 15,
                 'province' => 'YAUYOS',
                 'created_at' => NULL,
@@ -1123,7 +1123,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             138 => 
             array (
-                'id' => 139,
+                // 'id' => 139,
                 'department_id' => 16,
                 'province' => 'MAYNAS',
                 'created_at' => NULL,
@@ -1131,7 +1131,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             139 => 
             array (
-                'id' => 140,
+                // 'id' => 140,
                 'department_id' => 16,
                 'province' => 'ALTO AMAZONAS',
                 'created_at' => NULL,
@@ -1139,7 +1139,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             140 => 
             array (
-                'id' => 141,
+                // 'id' => 141,
                 'department_id' => 16,
                 'province' => 'LORETO',
                 'created_at' => NULL,
@@ -1147,7 +1147,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             141 => 
             array (
-                'id' => 142,
+                // 'id' => 142,
                 'department_id' => 16,
                 'province' => 'MARISCAL RAMON CASTILLA',
                 'created_at' => NULL,
@@ -1155,7 +1155,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             142 => 
             array (
-                'id' => 143,
+                // 'id' => 143,
                 'department_id' => 16,
                 'province' => 'REQUENA',
                 'created_at' => NULL,
@@ -1163,7 +1163,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             143 => 
             array (
-                'id' => 144,
+                // 'id' => 144,
                 'department_id' => 16,
                 'province' => 'UCAYALI',
                 'created_at' => NULL,
@@ -1171,7 +1171,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             144 => 
             array (
-                'id' => 145,
+                // 'id' => 145,
                 'department_id' => 16,
                 'province' => 'DATEM DEL MARAÑON',
                 'created_at' => NULL,
@@ -1179,7 +1179,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             145 => 
             array (
-                'id' => 146,
+                // 'id' => 146,
                 'department_id' => 17,
                 'province' => 'TAMBOPATA',
                 'created_at' => NULL,
@@ -1187,7 +1187,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             146 => 
             array (
-                'id' => 147,
+                // 'id' => 147,
                 'department_id' => 17,
                 'province' => 'MANU',
                 'created_at' => NULL,
@@ -1195,7 +1195,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             147 => 
             array (
-                'id' => 148,
+                // 'id' => 148,
                 'department_id' => 17,
                 'province' => 'TAHUAMANU',
                 'created_at' => NULL,
@@ -1203,7 +1203,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             148 => 
             array (
-                'id' => 149,
+                // 'id' => 149,
                 'department_id' => 18,
                 'province' => 'MARISCAL NIETO',
                 'created_at' => NULL,
@@ -1211,7 +1211,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             149 => 
             array (
-                'id' => 150,
+                // 'id' => 150,
                 'department_id' => 18,
                 'province' => 'GENERAL SANCHEZ CERRO',
                 'created_at' => NULL,
@@ -1219,7 +1219,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             150 => 
             array (
-                'id' => 151,
+                // 'id' => 151,
                 'department_id' => 18,
                 'province' => 'ILO',
                 'created_at' => NULL,
@@ -1227,7 +1227,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             151 => 
             array (
-                'id' => 152,
+                // 'id' => 152,
                 'department_id' => 19,
                 'province' => 'PASCO',
                 'created_at' => NULL,
@@ -1235,7 +1235,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             152 => 
             array (
-                'id' => 153,
+                // 'id' => 153,
                 'department_id' => 19,
                 'province' => 'DANIEL ALCIDES CARRION',
                 'created_at' => NULL,
@@ -1243,7 +1243,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             153 => 
             array (
-                'id' => 154,
+                // 'id' => 154,
                 'department_id' => 19,
                 'province' => 'OXAPAMPA',
                 'created_at' => NULL,
@@ -1251,7 +1251,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             154 => 
             array (
-                'id' => 155,
+                // 'id' => 155,
                 'department_id' => 20,
                 'province' => 'PIURA',
                 'created_at' => NULL,
@@ -1259,7 +1259,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             155 => 
             array (
-                'id' => 156,
+                // 'id' => 156,
                 'department_id' => 20,
                 'province' => 'PUIRA',
                 'created_at' => NULL,
@@ -1267,7 +1267,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             156 => 
             array (
-                'id' => 157,
+                // 'id' => 157,
                 'department_id' => 20,
                 'province' => 'AYABACA',
                 'created_at' => NULL,
@@ -1275,7 +1275,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             157 => 
             array (
-                'id' => 158,
+                // 'id' => 158,
                 'department_id' => 20,
                 'province' => 'HUANCABAMBA',
                 'created_at' => NULL,
@@ -1283,7 +1283,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             158 => 
             array (
-                'id' => 159,
+                // 'id' => 159,
                 'department_id' => 20,
                 'province' => 'MORROPON',
                 'created_at' => NULL,
@@ -1291,7 +1291,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             159 => 
             array (
-                'id' => 160,
+                // 'id' => 160,
                 'department_id' => 20,
                 'province' => 'PAITA',
                 'created_at' => NULL,
@@ -1299,7 +1299,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             160 => 
             array (
-                'id' => 161,
+                // 'id' => 161,
                 'department_id' => 20,
                 'province' => 'SULLANA',
                 'created_at' => NULL,
@@ -1307,7 +1307,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             161 => 
             array (
-                'id' => 162,
+                // 'id' => 162,
                 'department_id' => 20,
                 'province' => 'TALARA',
                 'created_at' => NULL,
@@ -1315,7 +1315,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             162 => 
             array (
-                'id' => 163,
+                // 'id' => 163,
                 'department_id' => 20,
                 'province' => 'SECHURA',
                 'created_at' => NULL,
@@ -1323,7 +1323,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             163 => 
             array (
-                'id' => 164,
+                // 'id' => 164,
                 'department_id' => 21,
                 'province' => 'PUNO',
                 'created_at' => NULL,
@@ -1331,7 +1331,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             164 => 
             array (
-                'id' => 165,
+                // 'id' => 165,
                 'department_id' => 21,
                 'province' => 'AZANGARO',
                 'created_at' => NULL,
@@ -1339,7 +1339,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             165 => 
             array (
-                'id' => 166,
+                // 'id' => 166,
                 'department_id' => 21,
                 'province' => 'CARABAYA',
                 'created_at' => NULL,
@@ -1347,7 +1347,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             166 => 
             array (
-                'id' => 167,
+                // 'id' => 167,
                 'department_id' => 21,
                 'province' => 'CHUCUITO',
                 'created_at' => NULL,
@@ -1355,7 +1355,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             167 => 
             array (
-                'id' => 168,
+                // 'id' => 168,
                 'department_id' => 21,
                 'province' => 'EL COLLAO',
                 'created_at' => NULL,
@@ -1363,7 +1363,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             168 => 
             array (
-                'id' => 169,
+                // 'id' => 169,
                 'department_id' => 21,
                 'province' => 'HUANCANE',
                 'created_at' => NULL,
@@ -1371,7 +1371,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             169 => 
             array (
-                'id' => 170,
+                // 'id' => 170,
                 'department_id' => 21,
                 'province' => 'LAMPA',
                 'created_at' => NULL,
@@ -1379,7 +1379,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             170 => 
             array (
-                'id' => 171,
+                // 'id' => 171,
                 'department_id' => 21,
                 'province' => 'MELGAR',
                 'created_at' => NULL,
@@ -1387,7 +1387,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             171 => 
             array (
-                'id' => 172,
+                // 'id' => 172,
                 'department_id' => 21,
                 'province' => 'MOHO',
                 'created_at' => NULL,
@@ -1395,7 +1395,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             172 => 
             array (
-                'id' => 173,
+                // 'id' => 173,
                 'department_id' => 21,
                 'province' => 'SAN ANTONIO DE PUTINA',
                 'created_at' => NULL,
@@ -1403,7 +1403,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             173 => 
             array (
-                'id' => 174,
+                // 'id' => 174,
                 'department_id' => 21,
                 'province' => 'SAN ROMAN',
                 'created_at' => NULL,
@@ -1411,7 +1411,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             174 => 
             array (
-                'id' => 175,
+                // 'id' => 175,
                 'department_id' => 21,
                 'province' => 'SANDIA',
                 'created_at' => NULL,
@@ -1419,7 +1419,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             175 => 
             array (
-                'id' => 176,
+                // 'id' => 176,
                 'department_id' => 21,
                 'province' => 'YUNGUYO',
                 'created_at' => NULL,
@@ -1427,7 +1427,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             176 => 
             array (
-                'id' => 177,
+                // 'id' => 177,
                 'department_id' => 22,
                 'province' => 'MOYOBAMBA',
                 'created_at' => NULL,
@@ -1435,7 +1435,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             177 => 
             array (
-                'id' => 178,
+                // 'id' => 178,
                 'department_id' => 22,
                 'province' => 'BELLAVISTA',
                 'created_at' => NULL,
@@ -1443,7 +1443,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             178 => 
             array (
-                'id' => 179,
+                // 'id' => 179,
                 'department_id' => 22,
                 'province' => 'EL DORADO',
                 'created_at' => NULL,
@@ -1451,7 +1451,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             179 => 
             array (
-                'id' => 180,
+                // 'id' => 180,
                 'department_id' => 22,
                 'province' => 'HUALLAGA',
                 'created_at' => NULL,
@@ -1459,7 +1459,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             180 => 
             array (
-                'id' => 181,
+                // 'id' => 181,
                 'department_id' => 22,
                 'province' => 'LAMAS',
                 'created_at' => NULL,
@@ -1467,7 +1467,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             181 => 
             array (
-                'id' => 182,
+                // 'id' => 182,
                 'department_id' => 22,
                 'province' => 'MARISCAL CACERES',
                 'created_at' => NULL,
@@ -1475,7 +1475,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             182 => 
             array (
-                'id' => 183,
+                // 'id' => 183,
                 'department_id' => 22,
                 'province' => 'PICOTA',
                 'created_at' => NULL,
@@ -1483,7 +1483,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             183 => 
             array (
-                'id' => 184,
+                // 'id' => 184,
                 'department_id' => 22,
                 'province' => 'RIOJA',
                 'created_at' => NULL,
@@ -1491,7 +1491,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             184 => 
             array (
-                'id' => 185,
+                // 'id' => 185,
                 'department_id' => 22,
                 'province' => 'SAN MARTIN',
                 'created_at' => NULL,
@@ -1499,7 +1499,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             185 => 
             array (
-                'id' => 186,
+                // 'id' => 186,
                 'department_id' => 22,
                 'province' => 'TOCACHE',
                 'created_at' => NULL,
@@ -1507,7 +1507,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             186 => 
             array (
-                'id' => 187,
+                // 'id' => 187,
                 'department_id' => 23,
                 'province' => 'Tacna',
                 'created_at' => NULL,
@@ -1515,7 +1515,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             187 => 
             array (
-                'id' => 188,
+                // 'id' => 188,
                 'department_id' => 23,
                 'province' => 'Candarave',
                 'created_at' => NULL,
@@ -1523,7 +1523,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             188 => 
             array (
-                'id' => 189,
+                // 'id' => 189,
                 'department_id' => 23,
                 'province' => 'Jorge Basadre',
                 'created_at' => NULL,
@@ -1531,7 +1531,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             189 => 
             array (
-                'id' => 190,
+                // 'id' => 190,
                 'department_id' => 23,
                 'province' => 'Tarata',
                 'created_at' => NULL,
@@ -1539,7 +1539,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             190 => 
             array (
-                'id' => 191,
+                // 'id' => 191,
                 'department_id' => 24,
                 'province' => 'TUMBES',
                 'created_at' => NULL,
@@ -1547,7 +1547,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             191 => 
             array (
-                'id' => 192,
+                // 'id' => 192,
                 'department_id' => 24,
                 'province' => 'CONTRALMIRANTE VILLAR',
                 'created_at' => NULL,
@@ -1555,7 +1555,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             192 => 
             array (
-                'id' => 193,
+                // 'id' => 193,
                 'department_id' => 24,
                 'province' => 'ZARUMILLA',
                 'created_at' => NULL,
@@ -1563,7 +1563,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             193 => 
             array (
-                'id' => 194,
+                // 'id' => 194,
                 'department_id' => 25,
                 'province' => 'CORONEL PORTILLO',
                 'created_at' => NULL,
@@ -1571,7 +1571,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             194 => 
             array (
-                'id' => 195,
+                // 'id' => 195,
                 'department_id' => 25,
                 'province' => 'ATALAYA',
                 'created_at' => NULL,
@@ -1579,7 +1579,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             195 => 
             array (
-                'id' => 196,
+                // 'id' => 196,
                 'department_id' => 25,
                 'province' => 'PADRE ABAD',
                 'created_at' => NULL,
@@ -1587,7 +1587,7 @@ class TprovincedataTableSeeder extends Seeder
             ),
             196 => 
             array (
-                'id' => 197,
+                // 'id' => 197,
                 'department_id' => 25,
                 'province' => 'PURUS',
                 'created_at' => NULL,

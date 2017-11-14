@@ -19,7 +19,7 @@ class ThdiaTableSeeder extends Seeder
         \DB::table('thdia')->insert(array (
             0 => 
             array (
-                'id' => 8,
+                // 'id' => 8,
                 'dia' => 'Lunes',
                 'entrada' => '07:45:00',
                 'salida' => '15:00:00',
@@ -30,7 +30,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => 9,
+                // 'id' => 9,
                 'dia' => 'Martes',
                 'entrada' => '07:45:00',
                 'salida' => '15:00:00',
@@ -41,7 +41,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => 10,
+                // 'id' => 10,
                 'dia' => 'Miercoles',
                 'entrada' => '07:45:00',
                 'salida' => '15:00:00',
@@ -52,7 +52,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             3 => 
             array (
-                'id' => 11,
+                // 'id' => 11,
                 'dia' => 'Jueves',
                 'entrada' => '07:45:00',
                 'salida' => '15:00:00',
@@ -63,7 +63,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             4 => 
             array (
-                'id' => 12,
+                // 'id' => 12,
                 'dia' => 'Viernes',
                 'entrada' => '07:45:00',
                 'salida' => '15:00:00',
@@ -74,7 +74,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             5 => 
             array (
-                'id' => 13,
+                // 'id' => 13,
                 'dia' => 'Domingo',
                 'entrada' => '00:00:00',
                 'salida' => '00:00:00',
@@ -85,7 +85,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             6 => 
             array (
-                'id' => 14,
+                // 'id' => 14,
                 'dia' => 'Sabado',
                 'entrada' => '00:00:00',
                 'salida' => '00:00:00',
@@ -96,7 +96,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             7 => 
             array (
-                'id' => 15,
+                // 'id' => 15,
                 'dia' => 'Lunes',
                 'entrada' => '08:45:00',
                 'salida' => '15:00:00',
@@ -107,7 +107,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             8 => 
             array (
-                'id' => 16,
+                // 'id' => 16,
                 'dia' => 'Martes',
                 'entrada' => '08:45:00',
                 'salida' => '15:00:00',
@@ -118,7 +118,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             9 => 
             array (
-                'id' => 17,
+                // 'id' => 17,
                 'dia' => 'Miercoles',
                 'entrada' => '08:45:00',
                 'salida' => '15:00:00',
@@ -129,7 +129,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             10 => 
             array (
-                'id' => 18,
+                // 'id' => 18,
                 'dia' => 'Jueves',
                 'entrada' => '08:45:00',
                 'salida' => '15:00:00',
@@ -140,7 +140,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             11 => 
             array (
-                'id' => 19,
+                // 'id' => 19,
                 'dia' => 'Viernes',
                 'entrada' => '08:45:00',
                 'salida' => '15:00:00',
@@ -151,7 +151,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             12 => 
             array (
-                'id' => 20,
+                // 'id' => 20,
                 'dia' => 'Domingo',
                 'entrada' => '00:00:00',
                 'salida' => '00:00:00',
@@ -162,7 +162,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             13 => 
             array (
-                'id' => 21,
+                // 'id' => 21,
                 'dia' => 'Sabado',
                 'entrada' => '00:00:00',
                 'salida' => '00:00:00',
@@ -173,7 +173,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             14 => 
             array (
-                'id' => 22,
+                // 'id' => 22,
                 'dia' => 'Lunes',
                 'entrada' => '12:45:00',
                 'salida' => '20:00:00',
@@ -184,7 +184,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             15 => 
             array (
-                'id' => 23,
+                // 'id' => 23,
                 'dia' => 'Martes',
                 'entrada' => '12:45:00',
                 'salida' => '20:00:00',
@@ -195,7 +195,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             16 => 
             array (
-                'id' => 24,
+                // 'id' => 24,
                 'dia' => 'Miercoles',
                 'entrada' => '12:45:00',
                 'salida' => '20:00:00',
@@ -206,7 +206,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             17 => 
             array (
-                'id' => 25,
+                // 'id' => 25,
                 'dia' => 'Jueves',
                 'entrada' => '12:45:00',
                 'salida' => '20:00:00',
@@ -217,7 +217,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             18 => 
             array (
-                'id' => 26,
+                // 'id' => 26,
                 'dia' => 'Viernes',
                 'entrada' => '12:45:00',
                 'salida' => '20:00:00',
@@ -228,7 +228,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             19 => 
             array (
-                'id' => 27,
+                // 'id' => 27,
                 'dia' => 'Domingo',
                 'entrada' => '00:00:00',
                 'salida' => '00:00:00',
@@ -239,7 +239,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             20 => 
             array (
-                'id' => 28,
+                // 'id' => 28,
                 'dia' => 'Sabado',
                 'entrada' => '00:00:00',
                 'salida' => '00:00:00',
@@ -250,7 +250,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             21 => 
             array (
-                'id' => 29,
+                // 'id' => 29,
                 'dia' => 'Lunes',
                 'entrada' => '06:30:00',
                 'salida' => '13:30:00',
@@ -261,7 +261,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             22 => 
             array (
-                'id' => 30,
+                // 'id' => 30,
                 'dia' => 'Martes',
                 'entrada' => '06:30:00',
                 'salida' => '13:30:00',
@@ -272,7 +272,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             23 => 
             array (
-                'id' => 31,
+                // 'id' => 31,
                 'dia' => 'Miercoles',
                 'entrada' => '06:30:00',
                 'salida' => '13:30:00',
@@ -283,7 +283,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             24 => 
             array (
-                'id' => 32,
+                // 'id' => 32,
                 'dia' => 'Jueves',
                 'entrada' => '06:30:00',
                 'salida' => '13:30:00',
@@ -294,7 +294,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             25 => 
             array (
-                'id' => 33,
+                // 'id' => 33,
                 'dia' => 'Viernes',
                 'entrada' => '06:30:00',
                 'salida' => '13:30:00',
@@ -305,7 +305,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             26 => 
             array (
-                'id' => 34,
+                // 'id' => 34,
                 'dia' => 'Domingo',
                 'entrada' => '00:00:00',
                 'salida' => '00:00:00',
@@ -316,7 +316,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             27 => 
             array (
-                'id' => 35,
+                // 'id' => 35,
                 'dia' => 'Sabado',
                 'entrada' => '00:00:00',
                 'salida' => '00:00:00',
@@ -327,7 +327,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             28 => 
             array (
-                'id' => 36,
+                // 'id' => 36,
                 'dia' => 'Lunes',
                 'entrada' => '06:00:00',
                 'salida' => '09:00:00',
@@ -338,7 +338,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             29 => 
             array (
-                'id' => 37,
+                // 'id' => 37,
                 'dia' => 'Martes',
                 'entrada' => '06:00:00',
                 'salida' => '09:00:00',
@@ -349,7 +349,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             30 => 
             array (
-                'id' => 38,
+                // 'id' => 38,
                 'dia' => 'Miercoles',
                 'entrada' => '06:00:00',
                 'salida' => '09:00:00',
@@ -360,7 +360,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             31 => 
             array (
-                'id' => 39,
+                // 'id' => 39,
                 'dia' => 'Jueves',
                 'entrada' => '06:00:00',
                 'salida' => '09:00:00',
@@ -371,7 +371,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             32 => 
             array (
-                'id' => 40,
+                // 'id' => 40,
                 'dia' => 'Viernes',
                 'entrada' => '06:00:00',
                 'salida' => '09:00:00',
@@ -382,7 +382,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             33 => 
             array (
-                'id' => 41,
+                // 'id' => 41,
                 'dia' => 'Domingo',
                 'entrada' => '00:00:00',
                 'salida' => '00:00:00',
@@ -393,7 +393,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             34 => 
             array (
-                'id' => 42,
+                // 'id' => 42,
                 'dia' => 'Sabado',
                 'entrada' => '00:00:00',
                 'salida' => '00:00:00',
@@ -404,7 +404,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             35 => 
             array (
-                'id' => 43,
+                // 'id' => 43,
                 'dia' => 'Lunes',
                 'entrada' => '16:30:00',
                 'salida' => '20:45:00',
@@ -415,7 +415,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             36 => 
             array (
-                'id' => 44,
+                // 'id' => 44,
                 'dia' => 'Martes',
                 'entrada' => '16:30:00',
                 'salida' => '20:45:00',
@@ -426,7 +426,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             37 => 
             array (
-                'id' => 45,
+                // 'id' => 45,
                 'dia' => 'Miercoles',
                 'entrada' => '16:30:00',
                 'salida' => '20:45:00',
@@ -437,7 +437,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             38 => 
             array (
-                'id' => 46,
+                // 'id' => 46,
                 'dia' => 'Jueves',
                 'entrada' => '16:30:00',
                 'salida' => '20:45:00',
@@ -448,7 +448,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             39 => 
             array (
-                'id' => 47,
+                // 'id' => 47,
                 'dia' => 'Viernes',
                 'entrada' => '16:30:00',
                 'salida' => '20:45:00',
@@ -459,7 +459,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             40 => 
             array (
-                'id' => 48,
+                // 'id' => 48,
                 'dia' => 'Domingo',
                 'entrada' => '00:00:00',
                 'salida' => '00:00:00',
@@ -470,7 +470,7 @@ class ThdiaTableSeeder extends Seeder
             ),
             41 => 
             array (
-                'id' => 49,
+                // 'id' => 49,
                 'dia' => 'Sabado',
                 'entrada' => '00:00:00',
                 'salida' => '00:00:00',

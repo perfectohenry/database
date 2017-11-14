@@ -71,7 +71,9 @@ class DatabaseSeeder extends Seeder
         $this->call(CompensacionTableSeeder::class);
         $this->call(ThdataTableSeeder::class);
         $this->call(ThdiaTableSeeder::class);
-        $this->call(HisthdiaTableSeeder::class);
+
+        /* // $this->call(HisthdiaTableSeeder::class); */
+        
         $this->call(TleavedataTableSeeder::class);
         $this->call(LidataTableSeeder::class);
         $this->call('HijoTableSeeder');

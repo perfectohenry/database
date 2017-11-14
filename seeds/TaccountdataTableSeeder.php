@@ -19,35 +19,35 @@ class TaccountdataTableSeeder extends Seeder
         \DB::table('taccountdata')->insert(array (
             0 => 
             array (
-                'id' => 1,
+                // 'id' => 1,
                 'account' => 'Ahorro',
                 'observation' => 'Ahorro',
-                'created_at' => '2017-07-18 17:18:31',
-                'updated_at' => '2017-07-18 17:18:51',
+                'created_at' => '20170718 17:18:31',
+                'updated_at' => '20170718 17:18:51',
             ),
             1 => 
             array (
-                'id' => 2,
+                // 'id' => 2,
                 'account' => 'Cta. Cte',
                 'observation' => 'Cuenta. Corriente',
-                'created_at' => '2017-07-18 17:19:00',
-                'updated_at' => '2017-07-18 17:19:17',
+                'created_at' => '20170718 17:19:00',
+                'updated_at' => '20170718 17:19:17',
             ),
             2 => 
             array (
-                'id' => 3,
+                // 'id' => 3,
                 'account' => 'Debito',
                 'observation' => 'Debito',
-                'created_at' => '2017-07-18 17:19:25',
-                'updated_at' => '2017-07-18 17:19:37',
+                'created_at' => '20170718 17:19:25',
+                'updated_at' => '20170718 17:19:37',
             ),
             3 => 
             array (
-                'id' => 4,
+                // 'id' => 4,
                 'account' => 'Otro',
                 'observation' => 'Otro',
-                'created_at' => '2017-07-18 17:31:36',
-                'updated_at' => '2017-07-18 17:31:36',
+                'created_at' => '20170718 17:31:36',
+                'updated_at' => '20170718 17:31:36',
             ),
         ));
         

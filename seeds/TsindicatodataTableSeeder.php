@@ -19,7 +19,7 @@ class TsindicatodataTableSeeder extends Seeder
         \DB::table('tsindicatodata')->insert(array (
             0 => 
             array (
-                'id' => 1,
+                // 'id' => 1,
                 'sindicato' => 'Sindicato 1',
                 'observation' => 'Sindicato 1',
                 'created_at' => NULL,
@@ -27,7 +27,7 @@ class TsindicatodataTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => 2,
+                // 'id' => 2,
                 'sindicato' => 'Sindicato 2',
                 'observation' => 'Sindicato 2',
                 'created_at' => NULL,
@@ -35,35 +35,35 @@ class TsindicatodataTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => 3,
+                // 'id' => 3,
                 'sindicato' => 'Sindicato 3',
                 'observation' => NULL,
-                'created_at' => '2017-09-19 02:12:19',
-                'updated_at' => '2017-09-19 02:12:19',
+                'created_at' => '20170919 02:12:19',
+                'updated_at' => '20170919 02:12:19',
             ),
             3 => 
             array (
-                'id' => 4,
+                // 'id' => 4,
                 'sindicato' => 'Sindicato 4',
                 'observation' => NULL,
-                'created_at' => '2017-09-19 02:12:32',
-                'updated_at' => '2017-09-19 02:12:32',
+                'created_at' => '20170919 02:12:32',
+                'updated_at' => '20170919 02:12:32',
             ),
             4 => 
             array (
-                'id' => 5,
+                // 'id' => 5,
                 'sindicato' => 'Sindicato 5',
                 'observation' => NULL,
-                'created_at' => '2017-09-22 01:14:45',
-                'updated_at' => '2017-09-22 01:14:45',
+                'created_at' => '20170922 01:14:45',
+                'updated_at' => '20170922 01:14:45',
             ),
             5 => 
             array (
-                'id' => 6,
+                // 'id' => 6,
                 'sindicato' => 'Sindicato 6',
                 'observation' => NULL,
-                'created_at' => '2017-09-22 01:26:29',
-                'updated_at' => '2017-09-22 01:26:29',
+                'created_at' => '20170922 01:26:29',
+                'updated_at' => '20170922 01:26:29',
             ),
         ));
         
