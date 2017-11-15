@@ -19,27 +19,27 @@ class CompensacionTableSeeder extends Seeder
         \DB::table('compensacion')->insert(array (
             0 => 
             array (
-                'id' => 1,
+                // 'id' => 1,
                 'descripcion' => 'Deducción de Vacaciones',
                 'estado' => 1,
-                'created_at' => '2017-09-01 00:00:00',
-                'updated_at' => '2017-09-01 00:00:00',
+                'created_at' => '20170901 00:00:00',
+                'updated_at' => '20170901 00:00:00',
             ),
             1 => 
             array (
-                'id' => 2,
+                // 'id' => 2,
                 'descripcion' => 'Horas Extras',
                 'estado' => 1,
-                'created_at' => '2017-09-01 00:00:00',
-                'updated_at' => '2017-09-01 00:00:00',
+                'created_at' => '20170901 00:00:00',
+                'updated_at' => '20170901 00:00:00',
             ),
             2 => 
             array (
-                'id' => 3,
+                // 'id' => 3,
                 'descripcion' => 'Onomastico',
                 'estado' => 1,
-                'created_at' => '2017-09-01 00:00:00',
-                'updated_at' => '2017-09-01 00:00:00',
+                'created_at' => '20170901 00:00:00',
+                'updated_at' => '20170901 00:00:00',
             ),
         ));
         

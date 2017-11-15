@@ -19,6 +19,7 @@ class CreateTleveldataTable extends Migration
             $table->integer('leveltype_id')->unsigned(); // estamento
             $table->string('initials',4); // STA, STB, SPA, SPB, SAA, SAB, ...
             $table->string('level',40);
+            $table->integer('priority')->unsigned(); // prioridad
             $table->boolean('activo')->default(1); // activo / no activo
             $table->string('observation',40);
             $table->timestamps();

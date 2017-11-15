@@ -19,7 +19,7 @@ class TprofesiondataTableSeeder extends Seeder
         \DB::table('tprofesiondata')->insert(array (
             0 => 
             array (
-                'id' => 1,
+                // 'id' => 1,
                 'profesion' => 'Profesion 1',
                 'observation' => 'Profesion 1',
                 'created_at' => NULL,
@@ -27,7 +27,7 @@ class TprofesiondataTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => 2,
+                // 'id' => 2,
                 'profesion' => 'Profesion 2',
                 'observation' => 'Profesion 2',
                 'created_at' => NULL,

@@ -15,13 +15,13 @@ class DatabaseSeeder extends Seeder
     {
         // $this->call(UsersTableSeeder::class);
 
-        /*$user = factory(App\User::class)->create([
-             'username' => 'admin',
-             'email' => 'admin@gmail.com',
-             'password' => bcrypt('admin'),
-             'lastname' => 'Mr',
-             'firstname' => 'admin'
-        ]);*/
+        // $user = factory(App\User::class)->create([
+        //      'username' => 'admin',
+        //      'email' => 'admin@gmail.com',
+        //      'password' => bcrypt('admin'),
+        //      'lastname' => 'Mr',
+        //      'firstname' => 'admin'
+        // ]);
 
         DB::table('users')->insert([
             'username' => 'admin',
@@ -71,7 +71,9 @@ class DatabaseSeeder extends Seeder
         $this->call(CompensacionTableSeeder::class);
         $this->call(ThdataTableSeeder::class);
         $this->call(ThdiaTableSeeder::class);
-        $this->call(HisthdiaTableSeeder::class);
+
+        /* // $this->call(HisthdiaTableSeeder::class); */
+        
         $this->call(TleavedataTableSeeder::class);
         $this->call(LidataTableSeeder::class);
         $this->call('HijoTableSeeder');

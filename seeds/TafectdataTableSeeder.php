@@ -19,7 +19,7 @@ class TafectdataTableSeeder extends Seeder
         \DB::table('tafectdata')->insert(array (
             0 => 
             array (
-                'id' => 1,
+                // 'id' => 1,
                 'initials' => 'UNI',
                 'afect' => 'Universidad',
                 'observation' => 'Universidad',
@@ -28,7 +28,7 @@ class TafectdataTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => 2,
+                // 'id' => 2,
                 'initials' => 'CAT',
                 'afect' => 'Categoria',
                 'observation' => 'Categoria',
@@ -37,7 +37,7 @@ class TafectdataTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => 3,
+                // 'id' => 3,
                 'initials' => 'EST',
                 'afect' => 'Estado',
                 'observation' => 'Estado',
@@ -46,7 +46,7 @@ class TafectdataTableSeeder extends Seeder
             ),
             3 => 
             array (
-                'id' => 4,
+                // 'id' => 4,
                 'initials' => 'U/C',
                 'afect' => 'Universidad / Categoria',
                 'observation' => 'Universidad / Categoria',
@@ -55,7 +55,7 @@ class TafectdataTableSeeder extends Seeder
             ),
             4 => 
             array (
-                'id' => 5,
+                // 'id' => 5,
                 'initials' => 'U/E',
                 'afect' => 'Universidad / Estado',
                 'observation' => 'Universidad / Estado',
@@ -64,7 +64,7 @@ class TafectdataTableSeeder extends Seeder
             ),
             5 => 
             array (
-                'id' => 6,
+                // 'id' => 6,
                 'initials' => 'E/C',
                 'afect' => 'Estado / Categoria',
                 'observation' => 'Estado / Categoria',
@@ -73,7 +73,7 @@ class TafectdataTableSeeder extends Seeder
             ),
             6 => 
             array (
-                'id' => 7,
+                // 'id' => 7,
                 'initials' => 'UEC',
                 'afect' => 'Universidad / Estado / Categoria',
                 'observation' => 'Universidad / Estado / Categoria',

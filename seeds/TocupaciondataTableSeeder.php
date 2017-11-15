@@ -19,7 +19,7 @@ class TocupaciondataTableSeeder extends Seeder
         \DB::table('tocupaciondata')->insert(array (
             0 => 
             array (
-                'id' => 1,
+                // 'id' => 1,
                 'ocupacion' => 'Ocupacion 1',
                 'observation' => 'Ocupacion 1',
                 'created_at' => NULL,
@@ -27,7 +27,7 @@ class TocupaciondataTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => 2,
+                // 'id' => 2,
                 'ocupacion' => 'Ocupacion 2',
                 'observation' => 'Ocupacion 2',
                 'created_at' => NULL,
@@ -35,11 +35,11 @@ class TocupaciondataTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => 3,
+                // 'id' => 3,
                 'ocupacion' => 'Ocupacion 3',
                 'observation' => NULL,
-                'created_at' => '2017-09-26 00:29:19',
-                'updated_at' => '2017-09-26 00:29:19',
+                'created_at' => '20170926 00:29:19',
+                'updated_at' => '20170926 00:29:19',
             ),
         ));
         

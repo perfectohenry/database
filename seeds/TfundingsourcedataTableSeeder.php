@@ -19,21 +19,21 @@ class TfundingsourcedataTableSeeder extends Seeder
         \DB::table('tfundingsourcedata')->insert(array (
             0 => 
             array (
-                'id' => 1,
+                // 'id' => 1,
                 'initials' => 'RDR',
                 'fundingsource' => 'Recursos Directamente Recaudados',
                 'observation' => 'Recursos Directamente Recaudados',
-                'created_at' => '2017-07-14 19:54:44',
-                'updated_at' => '2017-07-14 19:54:44',
+                'created_at' => '20170714 19:54:44',
+                'updated_at' => '20170714 19:54:44',
             ),
             1 => 
             array (
-                'id' => 2,
+                // 'id' => 2,
                 'initials' => 'RO',
                 'fundingsource' => 'Recursos Ordinarios',
                 'observation' => 'Recursos Ordinarios',
-                'created_at' => '2017-07-14 19:55:08',
-                'updated_at' => '2017-07-14 19:55:08',
+                'created_at' => '20170714 19:55:08',
+                'updated_at' => '20170714 19:55:08',
             ),
         ));
         
