@@ -18,7 +18,7 @@ class CreateTdemeritdataTable extends Migration
             // $table->string('initials',5); // 19990, 20530,etc
             $table->string('demerit',50);
             $table->boolean('regdeme'); // registra cuspp
-            $table->string('observation',100);
+            $table->string('observation',100)->nullable();
             $table->timestamps();
         });
     }

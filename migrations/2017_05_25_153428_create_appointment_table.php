@@ -32,6 +32,10 @@ class CreateAppointmentTable extends Migration
             $table->string('previous_after',3); // anterior despues
             $table->boolean('canceled'); // anulado
             $table->date('date_canceled')->nullable(); // fecha de anulacion
+            $table->string('duration',25)->nullable();
+            $table->string('years',2)->nullable();
+            $table->string('months',2)->nullable();
+            $table->string('days',2)->nullable();
             $table->string('doc_canceled',20)->nullable(); // documento de anulacion
             $table->string('observation',500)->nullable();
             $table->timestamps();

@@ -24,9 +24,9 @@ class CreateUniversityStudiesTable extends Migration
             $table->integer('academicdegree_id')->unsigned();
             $table->integer('carrera_id')->unsigned(); // carrera
             $table->boolean('public_private'); // publica o privada
-            $table->string('senior_year',4); // año de egreso
+            $table->string('senior_year',4)->nullable(); // año de egreso
             $table->string('rectype',5); // tipo de reconocimiento
-            $table->boolean('authenticated'); // ¿autenticado?
+            $table->boolean('authenticated')->nullable(); // ¿autenticado?
             $table->string('anr',20);
             $table->date('date_anr');
             $table->date('date_auth');
