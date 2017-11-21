@@ -57,7 +57,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 5,
                 'initials' => 'CRP',
-                'banco' => 'CENTRAL RESERVA DEL PERU',
+                'banco' => 'BANCO CENTRAL RESERVA DEL PERU',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -75,7 +75,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 7,
                 'initials' => 'CNT',
-                'banco' => 'CONTINENTAL',
+                'banco' => 'BANCO CONTINENTAL',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -84,7 +84,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 8,
                 'initials' => 'DCO',
-                'banco' => 'DE COMERCIO',
+                'banco' => 'BANCO DE COMERCIO',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -93,7 +93,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 9,
                 'initials' => 'DCP',
-                'banco' => 'DE CREDITO DEL PERU',
+                'banco' => 'BANCO DE CREDITO DEL PERU',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -102,7 +102,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 10,
                 'initials' => 'DLI',
-                'banco' => 'DE LIMA',
+                'banco' => 'BANCO DE LIMA',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -111,7 +111,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 11,
                 'initials' => 'DLB',
-                'banco' => 'DEL LIBERTADOR',
+                'banco' => 'BANCO DEL LIBERTADOR',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -120,7 +120,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 12,
                 'initials' => 'DPS',
-                'banco' => 'DEL PAIS',
+                'banco' => 'BANCO DEL PAIS',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -129,7 +129,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 13,
                 'initials' => 'DPG',
-                'banco' => 'DEL PROGRESO',
+                'banco' => 'BANCO DEL PROGRESO',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -138,7 +138,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 14,
                 'initials' => 'DTB',
-                'banco' => 'DEL TRABAJO',
+                'banco' => 'BANCO DEL TRABAJO',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -147,7 +147,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 15,
                 'initials' => 'FDP',
-                'banco' => 'FINANCIERO DEL PERU',
+                'banco' => 'BANCO FINANCIERO DEL PERU',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -165,7 +165,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 17,
                 'initials' => 'IFI',
-                'banco' => 'INTERAMERICANO FINANZAS',
+                'banco' => 'BANCO INTERAMERICANO FINANZAS',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -174,7 +174,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 18,
                 'initials' => 'INP',
-                'banco' => 'INTERNACIONAL DEL PERU',
+                'banco' => 'BANCO INTERNACIONAL DEL PERU',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -183,8 +183,8 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 19,
                 'initials' => 'LTN',
-                'banco' => 'LATINO',
-                'observation' => 'Observaciones',
+                'banco' => 'BANCO LATINO',
+                'observation' => 'BANCO LATINO absorbido por INTERBANK',
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
@@ -192,7 +192,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 20,
                 'initials' => 'MCT',
-                'banco' => 'MERCANTIL',
+                'banco' => 'BANCO MERCANTIL',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -210,7 +210,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 22,
                 'initials' => 'NAC',
-                'banco' => 'NACION',
+                'banco' => 'BANCO DE LA NACION',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -228,7 +228,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 24,
                 'initials' => 'NMD',
-                'banco' => 'NUEVO MUNDO',
+                'banco' => 'BANCO NUEVO MUNDO',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -237,7 +237,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 25,
                 'initials' => 'ORI',
-                'banco' => 'ORION',
+                'banco' => 'BANCO ORION',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -246,7 +246,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 26,
                 'initials' => 'REP',
-                'banco' => 'REPUBLICA',
+                'banco' => 'BANCO REPUBLICA',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -255,7 +255,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 27,
                 'initials' => 'STD',
-                'banco' => 'SANTANDER CENTRAL HISPANO',
+                'banco' => 'BANCO SANTANDER CENTRAL HISPANO',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -264,7 +264,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 28,
                 'initials' => 'SER',
-                'banco' => 'SERBANCO SA.',
+                'banco' => 'BANCO SERBANCO SA.',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -273,7 +273,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 29,
                 'initials' => 'SCO',
-                'banco' => 'SCOTIABANK PERU',
+                'banco' => 'BANCO SCOTIABANK PERU',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -282,7 +282,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 30,
                 'initials' => 'SOL',
-                'banco' => 'SOLVENTA',
+                'banco' => 'BANCO SOLVENTA',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -291,7 +291,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 31,
                 'initials' => 'STC',
-                'banco' => 'STANDARD CHARTERED',
+                'banco' => 'BANCO STANDARD CHARTERED',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -300,7 +300,7 @@ class TbancodataTableSeeder extends Seeder
             array (
                 // 'id' => 32,
                 'initials' => 'SUD',
-                'banco' => 'SUDAMERICANO',
+                'banco' => 'BANCO SUDAMERICANO',
                 'observation' => 'Observaciones',
                 'created_at' => NULL,
                 'updated_at' => NULL,

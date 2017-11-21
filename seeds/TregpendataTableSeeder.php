@@ -41,7 +41,7 @@ class TregpendataTableSeeder extends Seeder
             array (
                 // 'id' => 3,
                 'initials' => 'SPINT',
-                'regpen' => 'SPP INTEGRA',
+                'regpen' => 'AFP INTEGRA',
                 'regcuspp' => 1,
                 'observation' => 'Observaciones',
                 'created_at' => '20170719 15:32:38',
@@ -51,7 +51,7 @@ class TregpendataTableSeeder extends Seeder
             array (
                 // 'id' => 4,
                 'initials' => 'SPHRZ',
-                'regpen' => 'SPP HORIZONTE',
+                'regpen' => 'AFP HORIZONTE',
                 'regcuspp' => 1,
                 'observation' => 'Observaciones',
                 'created_at' => '20170719 15:33:11',
@@ -61,7 +61,7 @@ class TregpendataTableSeeder extends Seeder
             array (
                 // 'id' => 5,
                 'initials' => 'SPPFT',
-                'regpen' => 'SPP PROFUTURO',
+                'regpen' => 'AFP PROFUTURO',
                 'regcuspp' => 1,
                 'observation' => 'Observaciones',
                 'created_at' => '20170719 15:33:28',
@@ -71,7 +71,7 @@ class TregpendataTableSeeder extends Seeder
             array (
                 // 'id' => 6,
                 'initials' => 'SPPRM',
-                'regpen' => 'SPP PRIMA',
+                'regpen' => 'AFP PRIMA',
                 'regcuspp' => 1,
                 'observation' => 'Observaciones',
                 'created_at' => '20170719 15:33:42',

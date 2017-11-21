@@ -22,7 +22,7 @@ class CreateCertgradTable extends Migration
             // $table->boolean('national_inst'); // institucion nacional o extranjera
             // $table->integer('academicdegree_id')->unsigned();
             $table->string('nro_certgrad',20); // codigo de constancia
-            $table->string('mencion',100);
+            $table->string('mencion',100)->nullable();
             $table->integer('carrera_id')->unsigned(); // carrera
             $table->boolean('public_private'); // publica o privada
             $table->string('senior_year',4); // año de egreso

@@ -30,7 +30,7 @@ class TdocidentdataTableSeeder extends Seeder
             1 => 
             array (
                 // 'id' => 2,
-                'initials' => 'CNEX',
+                'initials' => 'CE',
                 'docident' => 'Carnet de Extranjeria',
                 'length' => 12,
                 'observation' => 'Observaciones',
@@ -40,7 +40,7 @@ class TdocidentdataTableSeeder extends Seeder
             2 => 
             array (
                 // 'id' => 3,
-                'initials' => 'PSPT',
+                'initials' => 'PAS',
                 'docident' => 'Pasaporte',
                 'length' => 12,
                 'observation' => 'Observaciones',

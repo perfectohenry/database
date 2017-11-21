@@ -25,14 +25,17 @@ class CreateAppointmentTable extends Migration
             $table->integer('location_id')->unsigned();
             $table->integer('level_id')->unsigned(); // nivel o categoria
             $table->integer('position_id')->unsigned(); // tipo de cargo
-            $table->string('pension_sch',30); // regimen de pensiones)
-            $table->string('condition',100); // condicion
             $table->integer('modalidad_id')->unsigned(); // puede tipificarse -- pe. CPU (tipos de contratos??
             $table->string('ing_nom_rat',15); // ingreso nombramiento o ratificacion
             $table->string('previous_after',3); // anterior despues
             $table->boolean('canceled'); // anulado
             $table->date('date_canceled')->nullable(); // fecha de anulacion
+            $table->string('duration',25)->nullable();
+            $table->string('years',2)->nullable();
+            $table->string('months',2)->nullable();
+            $table->string('days',2)->nullable();
             $table->string('doc_canceled',20)->nullable(); // documento de anulacion
+            $table->boolean('fiufie'); // fiufie
             $table->string('observation',500)->nullable();
             $table->timestamps();
         });
