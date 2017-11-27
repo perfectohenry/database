@@ -25,6 +25,7 @@ class CreateConyugueTable extends Migration
             $table->integer('workcenter_id')->nullable()->unsigned(); // centro de labor
             $table->date('date_marriage')->nullable(); // fech de matri
             $table->string('marriage_certificate',40)->nullable(); // acta de matrimonio
+            $table->boolean('current_past'); // actual o anterior
 
             // $table->string('phone',13); // telefono
             // $table->string('cellphone',13)->nullable();  // celular

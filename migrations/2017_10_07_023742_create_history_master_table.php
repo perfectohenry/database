@@ -41,10 +41,10 @@ class CreateHistoryMasterTable extends Migration
             $table->string('essalud',15)->nullable(); // EsSALUD
 
             // informacion financiera
-            $table->integer('banco_id')->unsigned(); // tipo de entidad financiera
-            $table->integer('account_id')->unsigned(); // tipo de cuenta
-            $table->string('account_nmb',20); // numero de cuenta
-            $table->string('cci',20); // numero cci - cuenta interbancaria
+            // $table->integer('banco_id')->unsigned(); // tipo de entidad financiera
+            // $table->integer('account_id')->unsigned(); // tipo de cuenta
+            // $table->string('account_nmb',20); // numero de cuenta
+            // $table->string('cci',20); // numero cci - cuenta interbancaria
 
             // regimen de salud
                 // seguro de vida
@@ -63,10 +63,10 @@ class CreateHistoryMasterTable extends Migration
                 $table->integer('sindicato_id')->nullable()->unsigned(); // tipo de discapacidad
 
             // regimen de pensiones
-            $table->integer('regpen_id')->nullable()->unsigned(); // tipo de regimen pensionario
-            $table->string('cuspp',12)->nullable(); // codigo cuspp            
-            $table->date('since')->nullable();  // desde
-            $table->date('until')->nullable();  // hasta
+            // $table->integer('regpen_id')->nullable()->unsigned(); // tipo de regimen pensionario
+            // $table->string('cuspp',12)->nullable(); // codigo cuspp            
+            // $table->date('since')->nullable();  // desde
+            // $table->date('until')->nullable();  // hasta
             
             // mas informacion
             $table->string('number_license',10)->nullable(); // numero de licencia
@@ -96,10 +96,10 @@ class CreateHistoryMasterTable extends Migration
 
         Schema::table('historymaster', function($table) {
             $table->foreign('master_code')->references('codigo')->on('master');
-            $table->foreign('account_id')->references('id')->on('taccountdata');
+            // $table->foreign('account_id')->references('id')->on('taccountdata');
             $table->foreign('docident_id')->references('id')->on('tdocidentdata');
-            $table->foreign('banco_id')->references('id')->on('tbancodata');
-            $table->foreign('regpen_id')->references('id')->on('tregpendata');
+            // $table->foreign('banco_id')->references('id')->on('tbancodata');
+            // $table->foreign('regpen_id')->references('id')->on('tregpendata');
             $table->foreign('department_id')->references('id')->on('tdepartmentdata');
             $table->foreign('province_id')->references('id')->on('tprovincedata');
             $table->foreign('district_id')->references('id')->on('tdistrictdata');
