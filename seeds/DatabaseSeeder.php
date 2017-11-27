@@ -80,6 +80,7 @@ class DatabaseSeeder extends Seeder
         $this->call('AddressTableSeeder');
         $this->call('EmailaddTableSeeder');
         $this->call('TelefonoaddTableSeeder');
+        $this->call('TformatodataTableSeeder');
     }
 }
     

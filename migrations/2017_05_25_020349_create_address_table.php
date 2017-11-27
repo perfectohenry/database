@@ -23,6 +23,7 @@ class CreateAddressTable extends Migration
             $table->integer('department_id')->unsigned()->nullable();
             $table->integer('province_id')->unsigned()->nullable();
             $table->integer('district_id')->unsigned()->nullable();
+            $table->boolean('current_past'); // actual o anterior
             $table->string('observation',500)->nullable();
             $table->timestamps();
         });
