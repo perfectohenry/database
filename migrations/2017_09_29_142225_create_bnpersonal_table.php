@@ -17,12 +17,12 @@ class CreateBnpersonalTable extends Migration
             $table->increments('id');
             $table->string('master_code',6); // codigo
             $table->integer('document_id')->unsigned(); // tipo de documento
-            $table->string('doc_number',20);
+            $table->string('doc_number',100);
             $table->string('docfile')->nullable();
             $table->date('date_expedition');
             $table->integer('operative_unit_id')->unsigned(); // unidad operativa
             $table->integer('position_id')->unsigned(); // tipo de cargo
-            $table->string('quinquenio',20); // quinquenio
+            $table->integer('quinquenio'); // quinquenio
             $table->date('date_validity'); // vigencia
             $table->boolean('previous_after'); // anterior o despues
             $table->string('observation',500)->nullable();

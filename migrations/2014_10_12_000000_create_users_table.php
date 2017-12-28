@@ -21,6 +21,8 @@ class CreateUsersTable extends Migration
             $table->string('lastname');
             $table->string('firstname');
             $table->rememberToken();
+            $table->tinyInteger('domain')->default(0); //0-ALL, 1-ADM, 2-DOC, 3-ADMSP, 4-DOCSP
+            $table->tinyInteger('privilegio')->default(1); // 1-todo
             $table->timestamps();
         });
     }

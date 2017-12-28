@@ -15,15 +15,15 @@ class CreateTelefonoaddTable extends Migration
     {
         Schema::create('telefonoadd', function (Blueprint $table) {// fuente de financiamiento
             $table->increments('id');
-            $table->integer('address_id')->unsigned();
-            $table->string('telefono',13);
+            $table->string('master_code',6);
+            $table->string('telefono',15);
             // $table->string('celular',13);
             $table->string('tipo',15); // fijo - movil(cel)
             $table->timestamps();
         });
 
         Schema::table('telefonoadd', function($table) {
-            $table->foreign('address_id')->references('id')->on('address');
+            $table->foreign('master_code')->references('codigo')->on('master');
         });
     }
 

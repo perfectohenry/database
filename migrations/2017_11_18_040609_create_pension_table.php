@@ -22,6 +22,7 @@ class CreatePensionTable extends Migration
             $table->date('since')->nullable();  // desde
             $table->date('until')->nullable();  // hasta
             $table->boolean('active')->default(0); // si o no
+            $table->string('observation',500)->nullable();
             $table->timestamps();
         });
 

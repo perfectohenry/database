@@ -28,7 +28,39 @@ class DatabaseSeeder extends Seeder
             'email' => 'admin@gmail.com',
             'password' => bcrypt('admin'),
             'lastname' => 'Admin',
-            'firstname' => 'Admin'
+            'firstname' => 'Admin',
+            'domain' => '0',
+            'privilegio' => '1'
+        ]);
+
+        DB::table('users')->insert([
+            'username' => 'adminadm',
+            'email' => 'exampleAdm@example.com',
+            'password' => bcrypt('adminadm'),
+            'lastname' => 'EmployeeAdm',
+            'firstname' => 'EmployeeAdm',
+            'domain' => '1',
+            'privilegio' => '1'
+        ]);
+
+        DB::table('users')->insert([
+            'username' => 'admindoc',
+            'email' => 'exampleDoc@example.com',
+            'password' => bcrypt('admindoc'),
+            'lastname' => 'Employeedoc',
+            'firstname' => 'Employeedoc',
+            'domain' => '2',
+            'privilegio' => '1'
+        ]);
+
+        DB::table('users')->insert([
+            'username' => 'adminadmsp',
+            'email' => 'exampleAdmsp@example.com',
+            'password' => bcrypt('adminadmsp'),
+            'lastname' => 'Administrativo',
+            'firstname' => 'Administrativo',
+            'domain' => '1',
+            'privilegio' => '0'
         ]);
 
         $this->call('TdepartmentdataTableSeeder');
@@ -69,18 +101,18 @@ class DatabaseSeeder extends Seeder
         $this->call('TutorialTableSeeder');
         $this->call(MotivoTableSeeder::class);
         $this->call(CompensacionTableSeeder::class);
-        $this->call(ThdataTableSeeder::class);
-        $this->call(ThdiaTableSeeder::class);
+        
+        // $this->call(ThdataTableSeeder::class);
+        // $this->call(ThdiaTableSeeder::class);
 
         /* // $this->call(HisthdiaTableSeeder::class); */
         
         $this->call(TleavedataTableSeeder::class);
-        $this->call(LidataTableSeeder::class);
+        // $this->call(LidataTableSeeder::class);
         $this->call('HijoTableSeeder');
         $this->call('AddressTableSeeder');
-        $this->call('EmailaddTableSeeder');
-        $this->call('TelefonoaddTableSeeder');
         $this->call('TformatodataTableSeeder');
+        $this->call('ContractsTableSeeder');
     }
 }
     

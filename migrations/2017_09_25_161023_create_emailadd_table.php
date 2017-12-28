@@ -15,7 +15,7 @@ class CreateEmailaddTable extends Migration
     {
         Schema::create('emailadd', function (Blueprint $table) {// fuente de financiamiento
             $table->increments('id');
-            $table->integer('address_id')->unsigned();
+            $table->string('master_code',6);
             $table->string('email');
             // $table->string('celular',13);
             $table->string('tipo',15); // propio - institucional (o mas)
@@ -23,7 +23,7 @@ class CreateEmailaddTable extends Migration
         });
 
         Schema::table('emailadd', function($table) {
-            $table->foreign('address_id')->references('id')->on('address');
+            $table->foreign('master_code')->references('codigo')->on('master');
         });
     }
 

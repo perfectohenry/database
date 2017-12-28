@@ -17,7 +17,7 @@ class AddTableHe extends Migration
             $table->increments('id');
             $table->string('master_code',6); //id trabajador
             $table->integer('document_id')->unsigned(); // tipo de documento
-            $table->string('doc_number',30); // numro oficio
+            $table->string('doc_number',100); // numro oficio
             $table->integer('mes'); // numero de mes
             $table->date('f_e',8)->nullable(); //fecha expedicion
             $table->date('f_r',8)->nullable(); //fecha recepcion

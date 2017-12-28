@@ -23,6 +23,7 @@ class CreateHistoryMasterTable extends Migration
             $table->integer('lvlstudy_id')->unsigned(); // tipo de profesiones
             $table->integer('profesion_id')->unsigned(); // tipo de profesiones
             $table->integer('ocupacion_id')->unsigned(); // tipo de ocupacion
+            $table->boolean('fthmth')->default(0); // es padre o madre de familia
 
             $table->integer('estamento_id')->nullable()->unsigned(); // tipo de estamento
             $table->integer('location_id')->nullable()->unsigned(); // ubicacion
@@ -59,7 +60,6 @@ class CreateHistoryMasterTable extends Migration
 
                 // sindicalizado
                 $table->boolean('syndicated')->default(0); // si o no
-                // $table->string('name_union',45)->nullable(); // nombre del sindicato
                 $table->integer('sindicato_id')->nullable()->unsigned(); // tipo de discapacidad
 
             // regimen de pensiones

@@ -87,6 +87,26 @@ class TemployeedataTableSeeder extends Seeder
                 'created_at' => '20170714 19:17:54',
                 'updated_at' => '20170714 19:17:54',
             ),
+            7 => 
+            array (
+                // 'id' => 8,
+                'estamento_id' => 1,
+                'initials' => 'CAS',
+                'employee' => 'Contrato Administratico de Servicios',
+                'observation' => 'Contrato Administratico de Servicios',
+                'created_at' => '20170714 19:17:54',
+                'updated_at' => '20170714 19:17:54',
+            ),
+            8 => 
+            array (
+                // 'id' => 8,
+                'estamento_id' => 1,
+                'initials' => 'PRT',
+                'employee' => 'Practicante',
+                'observation' => 'Practicante',
+                'created_at' => '20170714 19:17:54',
+                'updated_at' => '20170714 19:17:54',
+            ),
         ));
         
         

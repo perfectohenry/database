@@ -17,7 +17,7 @@ class CreateDisplacementTable extends Migration
             $table->increments('id');
             $table->string('master_code',6); // codigo
             $table->integer('document_id')->unsigned(); // tipo de documento
-            $table->string('doc_number',20);
+            $table->string('doc_number',100);
             $table->string('docfile')->nullable();
             $table->date('date_expedition');
             $table->string('exchange_rate',3); // puede tipificarse
